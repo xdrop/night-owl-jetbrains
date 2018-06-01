@@ -1,8 +1,8 @@
-### Jetbrains Night Owl 🌌  
+### Night Owl Color Scheme for Jetbrains® IDEs 🌌  
 
 > Night owl *theme* for IntelliJ and Webstorm :jack_o_lantern:
 
-Adaption of the [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm and IntelliJ based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrain IDE's being slightly different, the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
+Adaption of the [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm® and IntelliJ® based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrains® IDE's being slightly different, the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
 
 ![Screenshot](screenshot.png)
 
@@ -22,7 +22,7 @@ So far there is support for Javascript and React, feel free to PR for more :smil
 
 Installation **is not** very easy, due to Jetbrains Material UI not having released custom theme imports yet, and having to Jetbrains not having approved Rainbow Brackets yet. If you find a simpler way of installing this you are more than welcome to PR. :star2:
 
-1. Install [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) (**Preferenes** > **Plugins** > **Browse Repositories**)
+1. Install [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) (**Preferences** > **Plugins** > **Browse Repositories**)
 
 2. Go to **Tools** > **Material Theme** > **Material Theme Chooser** >  **Palenight Theme** (to trigger dark config)
 
@@ -34,7 +34,7 @@ Installation **is not** very easy, due to Jetbrains Material UI not having relea
 
 5. **Restart** your IDE
 
-6. Copy `Material Night Owl.icls` to your IntelliJ or Webstorm `colors` folder in the settings directory 
+6. Copy `Material Night Owl.icls` to your IntelliJ® or Webstorm® `colors` folder in the settings directory 
     - `C:\Users\<User>\.<IntelliOrWebstormJDirectory>\config\colors` (Windows)
     - `~/Library/Preferences/IntelliJIdeaOrWebstormXXXX.X/colors/` (macOS)
     - `~/.<IntelliJOrWebstormDirectory>/config/colors/` (Linux)
@@ -74,7 +74,12 @@ Adjust as needed from Material UI settings in Preferences, or adjust colors from
 
 - [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets)
 
-  
+
+
+
+### Trademarks
+
+Jetbrains®, IntelliJ®, Webstorm® are trademarks of their respective owners. Use of them does not imply any affiliation with or endorsement by them. 
 
 ### License
 
