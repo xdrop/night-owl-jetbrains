@@ -1,0 +1,30 @@
+<application>
+  <component name="RainbowSettings">
+    <option name="enableRainbowAngleBrackets" value="false" />
+    <option name="enableRainbowSquareBrackets" value="false" />
+    <option name="rainbowifyHTMLInsideJS" value="true" />
+    <option name="rainbowifyKotlinFunctionLiteralBracesAndArrow" value="true" />
+    <option name="version" value="5.8.2" />
+    <option name="darkRoundBracketsColors">
+       <array>
+          <option value="0xffd700" />
+          <option value="0xda70d6" />
+          <option value="0x87cefa" />
+       </array>
+    </option>
+    <option name="darkSquareBracketsColors">
+       <array>
+          <option value="0xffd700" />
+          <option value="0xda70d6" />
+          <option value="0x87cefa" />
+       </array>
+    </option>
+    <option name="darkSquigglyBracketsColors">
+       <array>
+          <option value="0xffd700" />
+          <option value="0xda70d6" />
+          <option value="0x87cefa" />
+       </array>
+    </option>
+  </component>
+</application>
