@@ -26,7 +26,7 @@ Installation **is not** very easy, due to Jetbrains Material UI not having relea
 
 2. Go to **Tools** > **Material Theme** > **Material Theme Chooser** >  **Palenight Theme** (to trigger dark config)
 
-3. [Download](https://github.com/xdrop/night-owl-jetbrains/archive/1.0.0.zip) this repo and go to `Preferences` under `Plugins` and click `Install Plugin from Disk`
+3. [Download](https://github.com/xdrop/night-owl-jetbrains/archive/1.0.1.zip) this repo and go to `Preferences` under `Plugins` and click `Install Plugin from Disk`
 
    ![Step 2](instructions1.png)
 
