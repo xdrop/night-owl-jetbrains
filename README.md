@@ -1,4 +1,4 @@
-### Night Owl Color Scheme for Jetbrains® IDEs 🌌  
+# Night Owl Color Scheme (for Jetbrains® IDEs) 🌌  
 
 > Night owl *theme* for IntelliJ and Webstorm :jack_o_lantern:
 
