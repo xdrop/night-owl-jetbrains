@@ -20,7 +20,7 @@ So far there is support for Javascript and React, feel free to PR for more :smil
 
 ### Installation
 
-Installation **is not** very easy, due to Jetbrains Material UI not having released custom theme imports yet, and having to Jetbrains not having approved Rainbow Brackets yet. If you find a simpler way of installing this you are more than welcome to PR. :star2:
+Installation **is not** very easy, due to Jetbrains Material UI not having released custom theme imports yet, and Rainbow Brackets not being approved yet. If you find a simpler way of installing this you are more than welcome to PR. :star2:
 
 1. Install [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) (**Preferences** > **Plugins** > **Browse Repositories**)
 
