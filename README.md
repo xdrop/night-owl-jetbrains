@@ -2,7 +2,7 @@
 
 > Night owl *theme* for IntelliJ and Webstorm :jack_o_lantern:
 
-Adaption of the [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm and IntelliJ based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrain IDE's being slightly different the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
+Adaption of the [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm and IntelliJ based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrain IDE's being slightly different, the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
 
 ![Screenshot](screenshot.png)
 
@@ -22,7 +22,7 @@ So far there is support for Javascript and React, feel free to PR for more :smil
 
 Installation **is not** very easy, due to Jetbrains Material UI not having released custom theme imports yet, and having to Jetbrains not having approved Rainbow Brackets yet. If you find a simpler way of installing this you are more than welcome to PR. :star2:
 
-1. Install [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui)
+1. Install [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) (**Preferenes** > **Plugins** > **Browse Repositories**)
 
 2. Go to **Tools** > **Material Theme** > **Material Theme Chooser** >  **Palenight Theme** (to trigger dark config)
 
@@ -63,3 +63,25 @@ Installation **is not** very easy, due to Jetbrains Material UI not having relea
 
 
 Adjust as needed from Material UI settings in Preferences, or adjust colors from Color Scheme in Preferences.
+
+
+
+### Credits
+
+- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+
+- [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains)
+
+- [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets)
+
+  
+
+### License
+
+Copyright 2018 xdrop
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
