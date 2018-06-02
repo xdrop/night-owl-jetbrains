@@ -6,6 +6,8 @@ Adaption of [Sarah Drasner's Night Owl](https://marketplace.visualstudio.com/ite
 
 ![Screenshot](screenshot.png)
 
+Screenshot: *Webstorm 2018.1* on *macOS Sierra*
+
 Screenshot font: **Fira Code 14pt *(+font ligatures)***
 
 ### Support
