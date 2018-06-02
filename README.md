@@ -1,8 +1,8 @@
 # Night Owl Color Scheme (for Jetbrains® IDEs) 🌌  
 
-> Night owl *theme* for IntelliJ and Webstorm :jack_o_lantern:
+> Night owl *theme* and *colour scheme* for IntelliJ® and Webstorm® :jack_o_lantern:
 
-Adaption of the [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm® and IntelliJ® based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrains® IDE's being slightly different, the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
+Adaption of [Sarah Drasner's Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm® and IntelliJ® based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrains® IDE's being slightly different, the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
 
 ![Screenshot](screenshot.png)
 
@@ -17,6 +17,8 @@ So far there is support for Javascript and React, feel free to PR for more :smil
 - [ ] Typescript
 - [ ] Vue
 - [ ] Angular
+- [ ] SCSS
+- [ ] Other languages
 
 ### Installation
 
