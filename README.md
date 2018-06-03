@@ -12,13 +12,13 @@ Screenshot font: **Fira Code 14pt *(+font ligatures)***
 
 ### Support
 
-So far there is support for Javascript and React, feel free to PR for more :smile:
+So far there is support for Javascript, Typescript with React and Angular, feel free to PR for more :smile:
 
 - [x] Javascript
 - [x] ReactJS
-- [ ] Typescript
+- [x] Typescript
+- [x] Angular
 - [ ] Vue
-- [ ] Angular
 - [ ] SCSS
 - [ ] Other languages
 
