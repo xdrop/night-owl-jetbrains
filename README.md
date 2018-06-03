@@ -24,45 +24,41 @@ So far there is support for Javascript and React, feel free to PR for more :smil
 
 ### Installation
 
-Installation **is not** very easy, due to Jetbrains Material UI not having released custom theme imports yet, and Rainbow Brackets not being approved yet. If you find a simpler way of installing this you are more than welcome to PR. :star2:
+Installation is not the easiest, due to Jetbrains Material UI not having released custom theme imports yet. If you find a simpler way of installing this you are more than welcome to PR. :star2:
 
-1. Install [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) (**Preferences** > **Plugins** > **Browse Repositories**)
+1. Install [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui)  and [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets) by going to `Preferences` under `Plugins` and click `Browse Repositories`, to search and install  (**Preferences** > **Plugins** > **Browse Repositories**)
+
+    ![Step 2](instructions1.png)
 
 2. Go to **Tools** > **Material Theme** > **Material Theme Chooser** >  **Palenight Theme** (to trigger dark config)
 
-3. [Download](https://github.com/xdrop/night-owl-jetbrains/archive/1.0.1.zip) this repo and go to `Preferences` under `Plugins` and click `Install Plugin from Disk`
+3. **Restart** your IDE
 
-   ![Step 2](instructions1.png)
-
-4. Point it to `rainbow-brackets.zip` and **install**
-
-5. **Restart** your IDE
-
-6. Copy `Material Night Owl.icls` to your IntelliJ® or Webstorm® `colors` folder in the settings directory 
+4. Copy `Material Night Owl.icls` to your IntelliJ® or Webstorm® `colors` folder in the settings directory 
     - `C:\Users\<User>\.<IntelliOrWebstormJDirectory>\config\colors` (Windows)
     - `~/Library/Preferences/IntelliJIdeaOrWebstormXXXX.X/colors/` (macOS)
     - `~/.<IntelliJOrWebstormDirectory>/config/colors/` (Linux)
 
-7. Paste (and replace) `rainbow_brackets.xml` , `material_theme.xml`, `material_custom_theme.xml` under:
+5. Paste (and replace) `rainbow_brackets.xml` , `material_theme.xml`, `material_custom_theme.xml` under:
 
     - `C:\Users\<User>\.<IntelliOrWebstormJDirectory>\config\options` (Windows)
     - `~/Library/Preferences/IntelliJIdeaOrWebstormXXXX.X/options/` (macOS)
     - `~/.<IntelliJOrWebstormDirectory>/config/options/` (Linux)
     - **Note**: If there wasn't a `rainbow_brackets.xml` there already then you didn't restart. Make sure you do before pasting
 
-8. **Restart** your IDE
+6. **Restart** your IDE
 
-9. Set **Preferences** > **Appeareance & Behaviour** > **Material Theme** > **Tab Height** > **42**
+7. Set **Preferences** > **Appeareance & Behaviour** > **Material Theme** > **Tab Height** > **42**
 
-10. **Preferences** > **Editor** > **Color Scheme** > **Material Night Owl**
+8. **Preferences** > **Editor** > **Color Scheme** > **Material Night Owl**
 
-11. Turn off code folding outline : **Editor** > **General** > **Code Folding** > **Show code folding outline** (off)
+9. Turn off code folding outline : **Editor** > **General** > **Code Folding** > **Show code folding outline** (off)
 
-12. Turn off indent guides: **Editor** > **General** > **Show indent guides** (off)
+10. Turn off indent guides: **Editor** > **General** > **Show indent guides** (off)
 
-13. Hide toolbars: **View** > (**Toolbar, Tool buttons, Status Bar, Navigation Bar**) > **Untick all**
+11. Hide toolbars: **View** > (**Toolbar, Tool buttons, Status Bar, Navigation Bar**) > **Untick all**
 
-14. Restart one last time and you are done!
+12. Restart one last time and you are done!
 
 
 
