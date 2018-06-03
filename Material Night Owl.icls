@@ -4,7 +4,7 @@
     <property name="created">2018-06-01T13:04:26</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.3.0.0</property>
-    <property name="modified">2018-06-01T14:42:50</property>
+    <property name="modified">2018-06-03T13:07:03</property>
     <property name="originalScheme">_@user_Material Palenight</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -3551,6 +3551,32 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffeb95" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="addb67" />
+      </value>
+    </option>
+    <option name="TS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="78ccf0" />
+      </value>
+    </option>
+    <option name="TS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="80cbc4" />
+      </value>
+    </option>
+    <option name="TS.PRIMITIVE.TYPES">
+      <value>
+        <option name="FOREGROUND" value="78ccf0" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
