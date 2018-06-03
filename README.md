@@ -56,9 +56,11 @@ Installation is not the easiest, due to Jetbrains Material UI not having release
 
 10. Turn off indent guides: **Editor** > **General** > **Show indent guides** (off)
 
-11. Hide toolbars: **View** > (**Toolbar, Tool buttons, Status Bar, Navigation Bar**) > **Untick all**
+11. Turn off breadcrumbs: **Editor** > **General** > **Show breadcrumbs** (off) 
 
-12. Restart one last time and you are done!
+12. Hide toolbars: **View** > (**Toolbar, Tool buttons, Status Bar, Navigation Bar**) > **Untick all**
+
+13. Restart one last time and you are done!
 
 
 
