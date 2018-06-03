@@ -34,33 +34,36 @@ Installation is not the easiest, due to Jetbrains Material UI not having release
 
 3. **Restart** your IDE
 
-4. Copy `Material Night Owl.icls` to your IntelliJ® or Webstorm® `colors` folder in the settings directory 
+4. [Download](https://github.com/xdrop/night-owl-jetbrains/releases) the latest release (zip) and unzip
+
+5. Copy `Material Night Owl.icls` to your IntelliJ® or Webstorm® `colors` folder in the settings directory 
+
     - `C:\Users\<User>\.<IntelliOrWebstormJDirectory>\config\colors` (Windows)
     - `~/Library/Preferences/IntelliJIdeaOrWebstormXXXX.X/colors/` (macOS)
     - `~/.<IntelliJOrWebstormDirectory>/config/colors/` (Linux)
 
-5. Paste (and replace) `rainbow_brackets.xml` , `material_theme.xml`, `material_custom_theme.xml` under:
+6. Paste (and replace) `rainbow_brackets.xml` , `material_theme.xml`, `material_custom_theme.xml` under:
 
     - `C:\Users\<User>\.<IntelliOrWebstormJDirectory>\config\options` (Windows)
     - `~/Library/Preferences/IntelliJIdeaOrWebstormXXXX.X/options/` (macOS)
     - `~/.<IntelliJOrWebstormDirectory>/config/options/` (Linux)
     - **Note**: If there wasn't a `rainbow_brackets.xml` there already then you didn't restart. Make sure you do before pasting
 
-6. **Restart** your IDE
+7. **Restart** your IDE
 
-7. Set **Preferences** > **Appeareance & Behaviour** > **Material Theme** > **Tab Height** > **42**
+8. Set **Preferences** > **Appeareance & Behaviour** > **Material Theme** > **Tab Height** > **42**
 
-8. **Preferences** > **Editor** > **Color Scheme** > **Material Night Owl**
+9. **Preferences** > **Editor** > **Color Scheme** > **Material Night Owl**
 
-9. Turn off code folding outline : **Editor** > **General** > **Code Folding** > **Show code folding outline** (off)
+10. Turn off code folding outline : **Editor** > **General** > **Code Folding** > **Show code folding outline** (off)
 
-10. Turn off indent guides: **Editor** > **General** > **Show indent guides** (off)
+11. Turn off indent guides: **Editor** > **General** > **Show indent guides** (off)
 
-11. Turn off breadcrumbs: **Editor** > **General** > **Show breadcrumbs** (off) 
+12. Turn off breadcrumbs: **Editor** > **General** > **Show breadcrumbs** (off) 
 
-12. Hide toolbars: **View** > (**Toolbar, Tool buttons, Status Bar, Navigation Bar**) > **Untick all**
+13. Hide toolbars: **View** > (**Toolbar, Tool buttons, Status Bar, Navigation Bar**) > **Untick all**
 
-13. Restart one last time and you are done!
+14. Restart one last time and you are done!
 
 
 
