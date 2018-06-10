@@ -1,0 +1,33 @@
+plugins {
+    id 'org.jetbrains.intellij' version '0.3.2'
+}
+
+group 'me.xdrop'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.javassist', name: 'javassist', version: '3.21.0-GA'
+    compile('com.thoughtworks.xstream:xstream:1.4.10') {
+        exclude group: 'xmlpull', module: 'xmlpull'
+        exclude group: 'xpp3', module: 'xpp3_min'
+    }
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+intellij {
+    version '2018.1'
+    plugins "com.chrisrm.idea.MaterialThemeUI:2.2.3.1"
+}
+patchPluginXml {
+    changeNotes """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
