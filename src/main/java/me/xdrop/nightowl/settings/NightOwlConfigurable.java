@@ -1,7 +1,6 @@
 package me.xdrop.nightowl.settings;
 
 import com.intellij.openapi.options.Configurable;
-import com.intellij.openapi.options.ConfigurationException;
 import me.xdrop.nightowl.settings.form.NightOwlSettingsForm;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.Nullable;
@@ -26,12 +25,18 @@ public class NightOwlConfigurable implements Configurable {
 
     @Override
     public boolean isModified() {
-        return false;
+        return settingsForm != null && settingsForm.isModified();
+    }
+
+    @Override
+    public void reset() {
+        settingsForm.reset();
     }
 
     @Override
     public void apply() {
         NightOwlSettings instance = NightOwlSettings.getInstance();
-        instance.isEnabled = settingsForm != null && settingsForm.isNightOwlEnabled();
+        instance.setEnabled(settingsForm != null && settingsForm.isNightOwlEnabled());
+        instance.setOverrideAppearance(settingsForm != null && settingsForm.isAppearanceOverriden());
     }
 }

@@ -13,7 +13,15 @@
     comprehension and for optimal razzle dazzle.
     ]]></description>
 
+    <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.chrisrm.idea.MaterialThemeUI">
+        <bundledTheme name="Night Owl" path="/themes/nightowl"/>
+    </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="colors/NightOwl" id="Night Owl"/>
+    </extensions>
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationConfigurable instance="me.xdrop.nightowl.settings.NightOwlConfigurable"/>
@@ -27,4 +35,5 @@
     </application-components>
 
     <depends>com.chrisrm.idea.MaterialThemeUI</depends>
+    <depends>izhangzhihao.rainbow.brackets</depends>
 </idea-plugin>

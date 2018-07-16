@@ -1,2 +1,8 @@
 .old
 build/**
+.idea/
+.gradle/
+*.swp
+*.iml
+*.ipr
+*.iws

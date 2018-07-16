@@ -1,20 +1,22 @@
 package me.xdrop.nightowl;
 
-import com.intellij.ide.ui.UISettings;
 import com.intellij.openapi.components.ApplicationComponent;
-import com.intellij.openapi.editor.ex.EditorSettingsExternalizable;
+import me.xdrop.nightowl.settings.NightOwlSettings;
 
 public class NightOwlComponent implements ApplicationComponent {
 
     @Override
     public void initComponent() {
-        UISettings.getInstance().setEditorTabLimit(1);
-        UISettings.getInstance().setShowMainToolbar(false);
-        UISettings.getInstance().setShowStatusBar(false);
-        UISettings.getInstance().setShowNavigationBar(false);
-        EditorSettingsExternalizable.getInstance().setBreadcrumbsShown(false);
-        EditorSettingsExternalizable.getInstance().setIndentGuidesShown(false);
-        EditorSettingsExternalizable.getInstance().setFoldingOutlineShown(false);
+        if (NightOwlSettings.getInstance().isEnabled()){
+            if (NightOwlSettings.getInstance().isSetup()){
+                NightOwlSettings.getInstance().setSetup(false);
+                NightOwlAppearance.applyIdeSettings();
+            }
+            if (!NightOwlSettings.getInstance().isOverrideAppearance()) {
+                NightOwlAppearance.applyIdeSettings();
+            }
+            NightOwlRainbowColorSettings.applyRainbowColorSettings();
+        }
     }
 
     @Override

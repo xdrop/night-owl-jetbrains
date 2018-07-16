@@ -13,14 +13,16 @@ import org.jetbrains.annotations.Nullable;
         storages = @Storage("night_owl_theme.xml")
 )
 public class NightOwlSettings implements PersistentStateComponent<NightOwlSettings> {
-    boolean isEnabled;
+    private boolean isEnabled = true;
+    private boolean isOverrideAppearance = true;
+    private boolean isSetup = true;
 
     /**
      * Get instance of the settings from the ServiceManager
      *
      * @return the settings instance
      */
-    static NightOwlSettings getInstance() {
+    public static NightOwlSettings getInstance() {
         return ServiceManager.getService(NightOwlSettings.class);
     }
 
@@ -42,5 +44,21 @@ public class NightOwlSettings implements PersistentStateComponent<NightOwlSettin
 
     public void setEnabled(boolean enabled) {
         isEnabled = enabled;
+    }
+
+    public boolean isOverrideAppearance() {
+        return isOverrideAppearance;
+    }
+
+    public void setOverrideAppearance(boolean overrideAppearance) {
+        isOverrideAppearance = overrideAppearance;
+    }
+
+    public boolean isSetup() {
+        return isSetup;
+    }
+
+    public void setSetup(boolean setup) {
+        isSetup = setup;
     }
 }
