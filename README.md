@@ -12,14 +12,14 @@ Screenshot font: **Fira Code 14pt *(+font ligatures)***
 
 ### Support
 
-So far there is support for Javascript, Typescript with React and Angular, feel free to PR for more :smile:
+So far there is support for Java, Python, Javascript, Typescript with React and Angular, feel free to PR for more :smile:
 
 - [x] Javascript
 - [x] ReactJS
 - [x] Typescript
 - [x] Angular
 - [x] Java
-- [ ] Python
+- [x] Python
 - [ ] Vue
 - [ ] SCSS
 - [ ] Other languages
@@ -32,40 +32,13 @@ Installation is not the easiest, due to Jetbrains Material UI not having release
 
     ![Step 2](instructions1.png)
 
-2. Go to **Tools** > **Material Theme** > **Material Theme Chooser** >  **Palenight Theme** (to trigger dark config)
+2. Install **Night Owl Theme** in the same way
 
-3. **Restart** your IDE
+3. Go to **Tools** > **Material Theme** > **Material Theme Chooser** > **External Themes** >  **Night Owl Theme** 
 
-4. [Download](https://github.com/xdrop/night-owl-jetbrains/releases) the latest release (zip) and unzip
+4. **Restart** your IDE
 
-5. Copy `Material Night Owl.icls` to your IntelliJ® or Webstorm® `colors` folder in the settings directory 
-
-    - `C:\Users\<User>\.<IntelliOrWebstormJDirectory>\config\colors` (Windows)
-    - `~/Library/Preferences/IntelliJIdeaOrWebstormXXXX.X/colors/` (macOS)
-    - `~/.<IntelliJOrWebstormDirectory>/config/colors/` (Linux)
-
-6. Paste (and replace) `rainbow_brackets.xml` , `material_theme.xml`, `material_custom_theme.xml` under:
-
-    - `C:\Users\<User>\.<IntelliOrWebstormJDirectory>\config\options` (Windows)
-    - `~/Library/Preferences/IntelliJIdeaOrWebstormXXXX.X/options/` (macOS)
-    - `~/.<IntelliJOrWebstormDirectory>/config/options/` (Linux)
-    - **Note**: If there wasn't a `rainbow_brackets.xml` there already then you didn't restart. Make sure you do before pasting
-
-7. **Restart** your IDE
-
-8. Set **Preferences** > **Appeareance & Behaviour** > **Material Theme** > **Tab Height** > **42**
-
-9. **Preferences** > **Editor** > **Color Scheme** > **Material Night Owl**
-
-10. Turn off code folding outline : **Editor** > **General** > **Code Folding** > **Show code folding outline** (off)
-
-11. Turn off indent guides: **Editor** > **General** > **Show indent guides** (off)
-
-12. Turn off breadcrumbs: **Editor** > **General** > **Show breadcrumbs** (off) 
-
-13. Hide toolbars: **View** > (**Toolbar, Tool buttons, Status Bar, Navigation Bar**) > **Untick all**
-
-14. Restart one last time and you are done!
+    
 
 
 
