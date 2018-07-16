@@ -20,6 +20,8 @@ So far there is support for Javascript, Typescript with React and Angular, feel 
 - [x] ReactJS
 - [x] Typescript
 - [x] Angular
+- [x] Java
+- [ ] Python
 - [ ] Vue
 - [ ] SCSS
 - [ ] Other languages
