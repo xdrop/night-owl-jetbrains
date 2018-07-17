@@ -7,16 +7,12 @@ public class NightOwlComponent implements ApplicationComponent {
 
     @Override
     public void initComponent() {
-        if (NightOwlSettings.getInstance().isEnabled()){
-            if (NightOwlSettings.getInstance().isSetup()){
-                NightOwlSettings.getInstance().setSetup(false);
-                NightOwlAppearance.applyIdeSettings();
-            }
-            if (!NightOwlSettings.getInstance().isOverrideAppearance()) {
-                NightOwlAppearance.applyIdeSettings();
-            }
-            NightOwlRainbowColorSettings.applyRainbowColorSettings();
+        NightOwlSettings settings = NightOwlSettings.getInstance();
+        if (settings.isSetup() || !settings.isAppearanceSettingsEnabled()) {
+            settings.setSetup(false);
+            NightOwlAppearance.applyIdeSettings();
         }
+        NightOwlRainbowColorSettings.applyRainbowColorSettings();
     }
 
     @Override

@@ -1,42 +1,39 @@
 package me.xdrop.nightowl.settings.form;
 
+import me.xdrop.nightowl.NightOwlAppearance;
 import me.xdrop.nightowl.settings.NightOwlSettings;
 
 import javax.swing.*;
 
 public class NightOwlSettingsForm {
     private JPanel rootPanel;
-    private JCheckBox isEnabled;
+    private JCheckBox isAppearanceSettingsEnabled;
+    private JButton setNow;
     private JLabel toggleTheThemeOnLabel;
-    private JCheckBox isAppearanceOverriden;
-    private JLabel appearanceOverrideLabel;
-    private NightOwlSettings settings = NightOwlSettings.getInstance();
+    private NightOwlSettings settings;
 
     public NightOwlSettingsForm() {
         settings = NightOwlSettings.getInstance();
+        setNow.addActionListener(e -> {
+           NightOwlAppearance.applyIdeSettings();
+        });
         reset();
     }
 
     public boolean isModified() {
-        return isNightOwlEnabled() != settings.isEnabled()
-                || isAppearanceOverriden() != settings.isOverrideAppearance();
+        return isAppearanceSettingsEnabled() != settings.isAppearanceSettingsEnabled();
     }
 
     public void reset() {
-        isEnabled.setSelected(settings.isEnabled());
-        isAppearanceOverriden.setSelected(settings.isOverrideAppearance());
+        isAppearanceSettingsEnabled.setSelected(settings.isAppearanceSettingsEnabled());
     }
 
     public JPanel getRootPanel() {
         return rootPanel;
     }
 
-    public boolean isNightOwlEnabled() {
-        return isEnabled.isSelected();
-    }
-
-    public boolean isAppearanceOverriden() {
-        return isAppearanceOverriden.isSelected();
+    public boolean isAppearanceSettingsEnabled() {
+        return isAppearanceSettingsEnabled.isSelected();
     }
 
 }
