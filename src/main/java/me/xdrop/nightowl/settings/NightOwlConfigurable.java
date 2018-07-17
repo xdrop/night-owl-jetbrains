@@ -36,7 +36,6 @@ public class NightOwlConfigurable implements Configurable {
     @Override
     public void apply() {
         NightOwlSettings instance = NightOwlSettings.getInstance();
-        instance.setEnabled(settingsForm != null && settingsForm.isNightOwlEnabled());
-        instance.setOverrideAppearance(settingsForm != null && settingsForm.isAppearanceOverriden());
+        instance.setAppearanceSettingsEnabled(settingsForm != null && settingsForm.isAppearanceSettingsEnabled());
     }
 }
