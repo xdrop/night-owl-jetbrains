@@ -11,7 +11,7 @@ dependencies {
 }
 
 group 'me.xdrop'
-version '1.0.4-SNAPSHOT'
+version '1.0.5'
 
 apply plugin: 'java'
 
@@ -24,9 +24,9 @@ repositories {
 intellij {
     pluginName 'night-owl-theme'
     version '2018.1'
-    plugins 'izhangzhihao.rainbow.brackets:5.8.3'
+    plugins 'izhangzhihao.rainbow.brackets:5.9'
 }
 patchPluginXml {
     changeNotes """
-      Initial release supporting 2018.1"""
+      Update Rainbow Brackets version to 5.9"""
 }
