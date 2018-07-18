@@ -5,7 +5,6 @@
 
 > Night owl *theme* and *colour scheme* for IntelliJ® and Webstorm® :jack_o_lantern:
 
-
 </div>
 
 
@@ -30,6 +29,8 @@ So far there is support for Java, Python, Javascript, Typescript with React and 
 - [ ] Vue
 - [ ] SCSS
 - [ ] Other languages
+
+
 
 ### Installation
 
