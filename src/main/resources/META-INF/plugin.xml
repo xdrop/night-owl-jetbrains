@@ -1,0 +1,39 @@
+<idea-plugin>
+    <id>me.xdrop.night-owl</id>
+    <name>Night Owl Theme</name>
+    <vendor email="xdrop.me@gmail.com" url="https://xdrop.me">xdrop</vendor>
+
+    <description><![CDATA[
+    Night Owl theme and colour scheme based on Sarah Drasner's VSCode one.
+
+   A theme for the night owls out there. Works well in the daytime, too,
+    but this theme is fine-tuned for those of us who like to code late into the night.
+    Color choices have taken into consideration what is accessible to people with colorblindness
+    and in low-light circumstances. Decisions were also based on meaningful contrast for reading
+    comprehension and for optimal razzle dazzle.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.chrisrm.idea.MaterialThemeUI">
+        <bundledTheme name="Night Owl" path="/themes/nightowl"/>
+    </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="colors/NightOwl" id="Night Owl"/>
+    </extensions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationConfigurable instance="me.xdrop.nightowl.settings.NightOwlConfigurable"/>
+        <applicationService serviceImplementation="me.xdrop.nightowl.settings.NightOwlSettings"/>
+    </extensions>
+
+    <application-components>
+        <component>
+            <implementation-class>me.xdrop.nightowl.NightOwlComponent</implementation-class>
+        </component>
+    </application-components>
+
+    <depends>com.chrisrm.idea.MaterialThemeUI</depends>
+    <depends>izhangzhihao.rainbow.brackets</depends>
+</idea-plugin>

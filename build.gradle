@@ -1,0 +1,32 @@
+buildscript {
+    ext.kotlin_version = '1.2.31'
+}
+plugins {
+    id 'org.jetbrains.intellij' version '0.3.4'
+    id 'org.jetbrains.kotlin.jvm' version '1.2.31'
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
+group 'me.xdrop'
+version '1.0.5'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+intellij {
+    pluginName 'night-owl-theme'
+    version '2018.1'
+    plugins 'izhangzhihao.rainbow.brackets:5.9'
+}
+patchPluginXml {
+    changeNotes """
+      Update Rainbow Brackets version to 5.9"""
+}
