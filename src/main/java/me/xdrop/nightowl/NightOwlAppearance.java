@@ -5,7 +5,6 @@ import com.intellij.openapi.editor.ex.EditorSettingsExternalizable;
 
 public class NightOwlAppearance {
     public static void applyIdeSettings() {
-        UISettings.getInstance().setEditorTabLimit(1);
         UISettings.getInstance().setShowMainToolbar(false);
         UISettings.getInstance().setShowStatusBar(false);
         UISettings.getInstance().setShowNavigationBar(false);
