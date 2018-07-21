@@ -23,8 +23,8 @@ repositories {
 
 intellij {
     pluginName 'night-owl-theme'
-    version '2018.1'
-    plugins 'izhangzhihao.rainbow.brackets:5.9'
+    version '2017.2'
+    plugins 'izhangzhihao.rainbow.brackets:5.9.1'
 }
 patchPluginXml {
     changeNotes """Updated console color and fonts"""
