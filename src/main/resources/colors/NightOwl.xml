@@ -1,11 +1,11 @@
 <scheme name="Night Owl" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
-        <property name="created">2018-06-01T13:04:26</property>
-        <property name="ide">WebStorm</property>
-        <property name="ideVersion">2018.1.3.0.0</property>
-        <property name="modified">2018-06-03T13:07:03</property>
-        <property name="originalScheme">_@user_Material Palenight</property>
+        <property name="created">2018-07-21T16:37:03</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2018.1.0.0</property>
+        <property name="modified">2018-07-21T16:40:59</property>
+        <property name="originalScheme">Night Owl</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.4" />
     <font>
@@ -17,20 +17,26 @@
         <option name="EDITOR_FONT_SIZE" value="14" />
     </font>
     <option name="EDITOR_LIGATURES" value="true" />
-    <option name="CONSOLE_FONT_NAME" value="Space Mono for Powerline" />
-    <option name="CONSOLE_FONT_SIZE" value="12" />
-    <option name="CONSOLE_LINE_SPACING" value="0.6" />
+    <console-font>
+        <option name="EDITOR_FONT_NAME" value="Fira Code" />
+        <option name="EDITOR_FONT_SIZE" value="12" />
+    </console-font>
+    <console-font>
+        <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+        <option name="EDITOR_FONT_SIZE" value="14" />
+    </console-font>
+    <option name="CONSOLE_LIGATURES" value="true" />
     <colors>
         <option name="ADDED_LINES_COLOR" value="" />
         <option name="ANNOTATIONS_COLOR" value="fffbf7" />
         <option name="CARET_COLOR" value="7e57c2" />
         <option name="CARET_ROW_COLOR" value="232235" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="292d3e" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="" />
         <option name="DELETED_LINES_COLOR" value="" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
         <option name="DOCUMENTATION_COLOR" value="292d3e" />
-        <option name="FILESTATUS_ADDED" value="7FDBCA" />
+        <option name="FILESTATUS_ADDED" value="7fdbca" />
         <option name="FILESTATUS_COPIED" value="659d9a" />
         <option name="FILESTATUS_DELETED" value="f77669" />
         <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
@@ -39,13 +45,13 @@
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="676e95" />
         <option name="FILESTATUS_MERGED" value="65738e" />
-        <option name="FILESTATUS_MODIFIED" value="7FDBCA" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7FDBCA" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7FDBCA" />
+        <option name="FILESTATUS_MODIFIED" value="7fdbca" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7fdbca" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7fdbca" />
         <option name="FILESTATUS_SUPPRESSED" value="676e95" />
         <option name="FILESTATUS_SWITCHED" value="8978f" />
         <option name="FILESTATUS_UNKNOWN" value="f77669" />
-        <option name="FILESTATUS_modifiedOutside" value="7FDBCA" />
+        <option name="FILESTATUS_modifiedOutside" value="7fdbca" />
         <option name="GUTTER_BACKGROUND" value="11627" />
         <option name="INDENT_GUIDE" value="34324a" />
         <option name="INFORMATION_HINT" value="292d3e" />
@@ -208,8 +214,8 @@
         </option>
         <option name="BROWSEWORDATCARET">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
-                <option name="EFFECT_COLOR" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
+                <option name="EFFECT_COLOR" value="7fdbca" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -471,7 +477,7 @@
         </option>
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -594,7 +600,7 @@
         <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
         <option name="DEFAULT_INSTANCE_FIELD">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
@@ -1269,7 +1275,7 @@
         </option>
         <option name="JSON.STRING">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
         <option name="JSP_DIRECTIVE_NAME">
@@ -1631,8 +1637,8 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.AUTO_LINK">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
-                <option name="EFFECT_COLOR" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
+                <option name="EFFECT_COLOR" value="7fdbca" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1828,7 +1834,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.LINK_REF_ANCHOR_MARKER">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1909,7 +1915,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.REFERENCE_LINK">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.REFERENCE_LINK_REF">
@@ -1921,7 +1927,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.REFERENCE_LINK_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -3604,7 +3610,7 @@
         </option>
         <option name="TS.LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="7FDBCA" />
+                <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
         <option name="TS.PRIMITIVE.TYPES">
