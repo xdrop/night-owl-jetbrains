@@ -1,6 +1,6 @@
 
 <div align="center">
-<a href="https://plugins.jetbrains.com/plugin/10936-night-owl-theme"><img height="64" width="64" alt="owl" src="https://i.imgur.com/suNjCM6.png" /></a>
+<a href="https://plugins.jetbrains.com/plugin/10936-night-owl-theme"><img height="64" width="64" alt="owl" src="https://i.imgur.com/iL6cZ25.png" /></a>
 <h1>Night Owl</h1>
 
 > Night owl *theme* and *colour scheme* for IntelliJ® and Webstorm® :jack_o_lantern:
