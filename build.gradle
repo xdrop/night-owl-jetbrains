@@ -11,7 +11,7 @@ dependencies {
 }
 
 group 'me.xdrop'
-version '1.0.6'
+version '1.0.7'
 
 apply plugin: 'java'
 
@@ -27,5 +27,5 @@ intellij {
     plugins 'izhangzhihao.rainbow.brackets:5.9'
 }
 patchPluginXml {
-    changeNotes """Fix issue with settings getting reset every time"""
+    changeNotes """Updated console color and fonts"""
 }
