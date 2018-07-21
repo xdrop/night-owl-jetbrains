@@ -8,7 +8,7 @@ public class NightOwlComponent implements ApplicationComponent {
     @Override
     public void initComponent() {
         NightOwlSettings settings = NightOwlSettings.getInstance();
-        if (settings.isSetup() || !settings.isAppearanceSettingsEnabled()) {
+        if (settings.isSetup() || settings.isAppearanceSettingsEnabled()) {
             settings.setSetup(false);
             NightOwlAppearance.applyIdeSettings();
         }

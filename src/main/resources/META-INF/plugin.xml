@@ -4,13 +4,19 @@
     <vendor email="xdrop.me@gmail.com" url="https://xdrop.me">xdrop</vendor>
 
     <description><![CDATA[
+    <div align="center">
+        <img height="64" width="64" alt="owl" src="https://i.imgur.com/suNjCM6.png" />
+    </div>
+    <br/>
     Night Owl theme and colour scheme based on Sarah Drasner's VSCode one.
 
-   A theme for the night owls out there. Works well in the daytime, too,
+    A theme for the night owls out there. Works well in the daytime, too,
     but this theme is fine-tuned for those of us who like to code late into the night.
     Color choices have taken into consideration what is accessible to people with colorblindness
     and in low-light circumstances. Decisions were also based on meaningful contrast for reading
     comprehension and for optimal razzle dazzle.
+
+    This plugin depends on Material Theme UI and Rainbow Brackets so make sure you install those before hand.
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
