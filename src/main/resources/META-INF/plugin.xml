@@ -40,8 +40,6 @@
         </component>
     </application-components>
 
-    <idea-version since-build="2018.1" until-build="2018.2"/>
-
     <depends>com.chrisrm.idea.MaterialThemeUI</depends>
     <depends>izhangzhihao.rainbow.brackets</depends>
 </idea-plugin>

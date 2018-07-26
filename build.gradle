@@ -25,7 +25,10 @@ intellij {
     pluginName 'night-owl-theme'
     version '2018.1'
     plugins 'izhangzhihao.rainbow.brackets:5.9.1'
+    updateSinceUntilBuild true
 }
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
+    sinceBuild '2018.1'
+    untilBuild '2018.2'
 }
