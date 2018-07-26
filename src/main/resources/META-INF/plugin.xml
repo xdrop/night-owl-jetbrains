@@ -5,7 +5,7 @@
 
     <description><![CDATA[
     <p align="center">
-        <img height="64" width="64" alt="owl" src="https://i.imgur.com/suNjCM6.png" />
+        <img height="64" width="64" alt="owl" src="https://i.imgur.com/iL6cZ25.png" />
     </p>
     <br/>
     Night Owl theme and colour scheme based on Sarah Drasner's VSCode one.
@@ -39,6 +39,8 @@
             <implementation-class>me.xdrop.nightowl.NightOwlComponent</implementation-class>
         </component>
     </application-components>
+
+    <idea-version since-build="2018.1" until-build="2018.2"/>
 
     <depends>com.chrisrm.idea.MaterialThemeUI</depends>
     <depends>izhangzhihao.rainbow.brackets</depends>
