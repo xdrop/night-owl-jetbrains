@@ -3,8 +3,7 @@
 <a href="https://plugins.jetbrains.com/plugin/10936-night-owl-theme"><img height="64" width="64" alt="owl" src="https://i.imgur.com/iL6cZ25.png" /></a>
 <h1>Night Owl</h1>
 
-> Night owl *theme* and *colour scheme* for IntelliJ® and Webstorm® :jack_o_lantern:
-
+> Night owl *theme* and *colour scheme* for IntelliJ®, Webstorm® and other Jetbrains® IDEs :jack_o_lantern:
 </div>
 
 Adaption of [Sarah Drasner's Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm® and IntelliJ® based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrains® IDE's being slightly different, the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
@@ -41,9 +40,11 @@ The plugin is now available on the Jetbrains plugin repository :star2:. **Before
 
 2. Install [Night Owl Theme](https://plugins.jetbrains.com/plugin/10936-night-owl-theme) in the same way
 
-3. Go to **Tools** > **Material Theme** > **Material Theme Chooser** > **External Themes** >  **Night Owl Theme** 
+3. **Restart** your IDE
 
-4. **Restart** your IDE
+4. Activate by going to **Tools** > **Material Theme** > **Material Theme Chooser** > **External Themes** >  **Night Owl Theme** 
+
+
 
     
 
