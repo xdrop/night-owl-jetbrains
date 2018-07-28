@@ -10,11 +10,11 @@
     <option name="LINE_SPACING" value="1.4" />
     <font>
         <option name="EDITOR_FONT_NAME" value="Fira Code" />
-        <option name="EDITOR_FONT_SIZE" value="14" />
+        <option name="EDITOR_FONT_SIZE" value="12" />
     </font>
     <font>
         <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-        <option name="EDITOR_FONT_SIZE" value="14" />
+        <option name="EDITOR_FONT_SIZE" value="12" />
     </font>
     <option name="EDITOR_LIGATURES" value="true" />
     <console-font>
@@ -23,7 +23,7 @@
     </console-font>
     <console-font>
         <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-        <option name="EDITOR_FONT_SIZE" value="14" />
+        <option name="EDITOR_FONT_SIZE" value="12" />
     </console-font>
     <option name="CONSOLE_LIGATURES" value="true" />
     <colors>
