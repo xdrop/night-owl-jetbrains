@@ -29,6 +29,6 @@ intellij {
 }
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
-    sinceBuild '181.4203.550'
+    sinceBuild '182.3208.14'
     untilBuild '182.*'
 }
