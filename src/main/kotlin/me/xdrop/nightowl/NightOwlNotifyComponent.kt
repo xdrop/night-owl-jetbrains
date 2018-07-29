@@ -19,7 +19,7 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
 
     private fun checkAndNotifyMaterialUIVersion() {
         val materialThemeUI = PluginManager.getPlugin(PluginId.getId("com.chrisrm.idea.MaterialThemeUI"))
-        if (compareVersion(materialThemeUI?.version ?: "0.0.0", "2.6.0") > 0) {
+        if (compareVersion(materialThemeUI?.version ?: "0.0.0", "2.6.0") < 0) {
             notifyIncompatible(myProject)
         }
     }
@@ -35,17 +35,24 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         private val version = NightOwlSettings.instance.version
         private const val channel = "me.xdrop.nightowl"
 
-        private val incompatibleMsg = """
- <br/>
-<b>WARNING:</b> Night owl requires Material Theme UI version <b>2.6.0 or higher</b></br>
+        private const val INCOMPATIBLE_MSG = """
+<b>WARNING:</b> Night Owl requires Material Theme UI version <b>2.6.0 or higher.</b><br>
 Please <b>update Material Theme UI</b>, otherwise this theme won't load.
+"""
+        private const val UPDATE_MSG = """
+<b>Night owl</b> successfully updated!<br/>
+<b>In this release</b>: <ul>
+<li>New <i>accent color</i> for theme</li>
+</ul>
+</br>
+Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github</a> for any issues you have
 """
 
         private fun notifyUpdate(project: Project) {
             Notify.show(
                     project = project,
                     title = "Night Owl",
-                    content = "",
+                    content = UPDATE_MSG,
                     displayId = channel
             )
         }
@@ -54,7 +61,7 @@ Please <b>update Material Theme UI</b>, otherwise this theme won't load.
             Notify.show(
                     project = project,
                     title = "Night Owl",
-                    content = "",
+                    content = INCOMPATIBLE_MSG,
                     displayId = channel
             )
         }
