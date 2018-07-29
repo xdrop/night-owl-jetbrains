@@ -4,7 +4,7 @@ import com.intellij.ide.ui.UISettings
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.components.stateStore
 import com.intellij.openapi.editor.ex.EditorSettingsExternalizable
-import me.xdrop.nightowl.utils.replaceFile
+import me.xdrop.nightowl.utils.rewriteStreamTo
 import java.io.IOException
 import java.nio.file.Paths
 
@@ -38,8 +38,10 @@ object Appearance {
 
         val classLoader = NightOwlComponent::class.java.classLoader
         val rainbowSettings = classLoader.getResourceAsStream("colors/rainbow_brackets.xml")
-        val outputStream = path.toFile().outputStream()
+        val outputFile = path.toFile()
 
-        replaceFile(rainbowSettings, outputStream)
+        outputFile.delete();
+
+        rewriteStreamTo(rainbowSettings, outputFile.outputStream())
     }
 }

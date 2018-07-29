@@ -6,7 +6,7 @@ import java.io.OutputStream
 import java.nio.charset.Charset
 
 @Throws(IOException::class)
-fun replaceFile(input: InputStream, output: OutputStream) {
+fun rewriteStreamTo(input: InputStream, output: OutputStream) {
     val reader = input.reader(Charset.forName("UTF-8"))
     val writer = output.bufferedWriter()
 
