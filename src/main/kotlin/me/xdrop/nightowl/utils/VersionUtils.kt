@@ -1,8 +1,8 @@
 package me.xdrop.nightowl.utils
 
 fun compareVersion(v1: String, v2: String) : Int {
-    val version1parts = v1.split("\\.")
-    val version2parts = v2.split("\\.")
+    val version1parts = v1.split(".")
+    val version2parts = v2.split(".")
 
     var i = 0
 
