@@ -36,17 +36,17 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         private const val channel = "me.xdrop.nightowl"
 
         private const val INCOMPATIBLE_MSG = """
-<b>WARNING:</b> Night Owl requires Material Theme UI version <b>2.6.0 or higher.</b><br>
-Please <b>update Material Theme UI</b>, otherwise this theme won't load.
-"""
+        <b>WARNING:</b> Night Owl requires Material Theme UI version <b>2.6.0 or higher.</b><br>
+        Please <b>update Material Theme UI</b>, otherwise this theme won't load.
+        """
         private const val UPDATE_MSG = """
-<b>Night owl</b> successfully updated!<br/>
-<b>In this release</b>: <ul>
-<li>New <i>accent color</i> for theme</li>
-</ul>
-</br>
-Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github</a> for any issues you have
-"""
+        <b>Night Owl</b> successfully updated!<br/>
+        <b>In this release</b>: <ul>
+        <li>New <i>accent color</i> for theme</li>
+        </ul>
+        </br>
+        Visit <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github</a> for any issues you have
+        """
 
         private fun notifyUpdate(project: Project) {
             Notify.show(

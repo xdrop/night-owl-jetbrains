@@ -17,7 +17,7 @@ class NightOwlComponent : ApplicationComponent {
         try {
             initialize()
         } catch (e: IOException) {
-            logger<NightOwlComponent>().error("IOException: ${e.message}")
+            LOG.error("IOException: ${e.message}")
         }
     }
 
@@ -56,6 +56,8 @@ class NightOwlComponent : ApplicationComponent {
     companion object {
         val instance: NightOwlComponent
             get() = ApplicationManager.getApplication().getComponent(NightOwlComponent::class.java)
+
+        val LOG = logger<NightOwlComponent>();
 
         private fun getPlugin() = PluginManager.getPlugin(
                 PluginId.getId("me.xdrop.nightowl")
