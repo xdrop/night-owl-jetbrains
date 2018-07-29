@@ -16,7 +16,7 @@
           <text value="Auto-set appearance"/>
         </properties>
       </component>
-      <component id="9fd9d" class="javax.swing.JCheckBox" binding="isAppearanceSettingsEnabled">
+      <component id="9fd9d" class="javax.swing.JCheckBox" binding="isAppearanceSettingsEnabledCheckBox">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -57,7 +57,7 @@
           <text value="Overwrite Rainbow Brackets Settings"/>
         </properties>
       </component>
-      <component id="82724" class="javax.swing.JCheckBox" binding="isOverrideRainbowBrackets">
+      <component id="82724" class="javax.swing.JCheckBox" binding="isOverrideRainbowBracketsCheckBox">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>

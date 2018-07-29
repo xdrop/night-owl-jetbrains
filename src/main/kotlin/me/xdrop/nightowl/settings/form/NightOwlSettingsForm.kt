@@ -1,20 +1,20 @@
 package me.xdrop.nightowl.settings.form
 
-import me.xdrop.nightowl.NightOwlAppearance
+import me.xdrop.nightowl.Appearance
 import me.xdrop.nightowl.settings.NightOwlSettings
 
 import javax.swing.*
 
 class NightOwlSettingsForm {
-    private val rootPanel: JPanel? = null
-    private val isAppearanceSettingsEnabledCheckBox: JCheckBox? = null
-    private val isOverrideRainbowBracketsCheckBox: JCheckBox? = null
-    private val setNow: JButton? = null
+    private var rootPanel: JPanel? = null
+    private var isAppearanceSettingsEnabledCheckBox: JCheckBox? = null
+    private var isOverrideRainbowBracketsCheckBox: JCheckBox? = null
+    private var setNow: JButton? = null
 
     private val settings: NightOwlSettings = NightOwlSettings.instance
 
     init {
-        setNow?.addActionListener { NightOwlAppearance.applyIdeSettings() }
+        setNow?.addActionListener { Appearance.applyIdeSettings() }
         reset()
     }
 
