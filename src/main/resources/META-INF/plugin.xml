@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>me.xdrop.night-owl</id>
+    <id>me.xdrop.nightowl</id>
     <name>Night Owl Theme</name>
     <vendor email="xdrop.me@gmail.com" url="https://xdrop.me">xdrop</vendor>
 
@@ -40,6 +40,11 @@
         </component>
     </application-components>
 
+    <project-components>
+        <component>
+            <implementation-class>me.xdrop.nightowl.NightOwlNotifyComponent</implementation-class>
+        </component>
+    </project-components>
     <depends>com.chrisrm.idea.MaterialThemeUI</depends>
     <depends>izhangzhihao.rainbow.brackets</depends>
 </idea-plugin>
