@@ -5,8 +5,8 @@ import com.intellij.openapi.components.AbstractProjectComponent
 import com.intellij.openapi.extensions.PluginId
 import com.intellij.openapi.project.Project
 import me.xdrop.nightowl.settings.NightOwlSettings
-import me.xdrop.nightowl.utils.Notify
 import me.xdrop.nightowl.utils.compareVersion
+import me.xdrop.nightowl.utils.notify
 
 class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(project) {
 
@@ -49,7 +49,7 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         """
 
         private fun notifyUpdate(project: Project) {
-            Notify.show(
+            notify(
                     project = project,
                     title = "Night Owl",
                     content = UPDATE_MSG,
@@ -58,7 +58,7 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         }
 
         private fun notifyIncompatible(project: Project) {
-            Notify.show(
+            notify(
                     project = project,
                     title = "Night Owl",
                     content = INCOMPATIBLE_MSG,

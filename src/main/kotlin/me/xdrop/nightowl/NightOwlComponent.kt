@@ -1,6 +1,5 @@
 package me.xdrop.nightowl
 
-import com.intellij.ide.plugins.IdeaPluginDescriptor
 import com.intellij.ide.plugins.PluginManager
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.components.ApplicationComponent
@@ -35,11 +34,11 @@ class NightOwlComponent : ApplicationComponent {
             Appearance.applyIdeSettings()
         }
         if (settings.isOverrideRainbowBrackets) {
-            applyRainbowBracketsSettings()
+            Appearance.applyRainbowBracketsSettings()
         }
     }
 
-    public fun hasUpdated(settings: NightOwlSettings): Boolean {
+    private fun hasUpdated(settings: NightOwlSettings): Boolean {
         return getPlugin()!!.version != settings.version
     }
 
@@ -50,8 +49,6 @@ class NightOwlComponent : ApplicationComponent {
             settings.version = current
         }
     }
-
-    override fun disposeComponent() {}
 
     companion object {
         val instance: NightOwlComponent

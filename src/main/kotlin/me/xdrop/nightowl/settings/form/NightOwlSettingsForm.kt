@@ -2,8 +2,10 @@ package me.xdrop.nightowl.settings.form
 
 import me.xdrop.nightowl.Appearance
 import me.xdrop.nightowl.settings.NightOwlSettings
-
-import javax.swing.*
+import javax.swing.JButton
+import javax.swing.JCheckBox
+import javax.swing.JComponent
+import javax.swing.JPanel
 
 class NightOwlSettingsForm {
     private var rootPanel: JPanel? = null

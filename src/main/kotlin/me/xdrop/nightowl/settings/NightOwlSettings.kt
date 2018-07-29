@@ -2,8 +2,8 @@ package me.xdrop.nightowl.settings
 
 import com.intellij.openapi.components.PersistentStateComponent
 import com.intellij.openapi.components.ServiceManager.getService
+import com.intellij.openapi.components.State
 import com.intellij.openapi.components.Storage
-import com.intellij.openapi.components.State;
 import com.intellij.util.xmlb.XmlSerializerUtil
 
 @State(name = "NightOwlThemeConfig", storages=[Storage("night-owl-theme.xml")])
