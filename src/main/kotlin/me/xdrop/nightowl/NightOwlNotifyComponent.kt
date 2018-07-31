@@ -25,7 +25,7 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
 
     companion object {
         private val version = NightOwlSettings.instance.version
-        private const val channel = "me.xdrop.nightowl"
+        private const val channel = "me.xdrop.night-owl"
 
         private const val UPDATE_MSG = """
         <b>Night Owl</b> successfully updated!<br/>
