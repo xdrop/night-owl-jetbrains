@@ -40,7 +40,9 @@ object Appearance {
         val rainbowSettings = classLoader.getResourceAsStream("colors/rainbow_brackets.xml")
         val outputFile = path.toFile()
 
-        outputFile.delete();
+        if (outputFile.exists()) {
+            outputFile.delete()
+        }
 
         rewriteStreamTo(rainbowSettings, outputFile.outputStream())
     }

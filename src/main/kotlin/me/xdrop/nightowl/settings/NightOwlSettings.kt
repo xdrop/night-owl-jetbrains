@@ -11,7 +11,7 @@ class NightOwlSettings : PersistentStateComponent<NightOwlSettings> {
 
     var isAppearanceSettingsEnabled = false
     var isOverrideRainbowBrackets = true
-    var isSetup = false
+    var isSetup = true
     var version = "unset"
 
     override fun getState() = this

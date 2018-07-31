@@ -4,10 +4,9 @@
         <property name="created">2018-07-21T16:37:03</property>
         <property name="ide">idea</property>
         <property name="ideVersion">2018.1.0.0</property>
-        <property name="modified">2018-07-21T16:40:59</property>
-        <property name="originalScheme">Night Owl</property>
+        <property name="modified">2018-07-31T10:42:31</property>
     </metaInfo>
-    <option name="LINE_SPACING" value="1.4" />
+    <option name="LINE_SPACING" value="1.2" />
     <font>
         <option name="EDITOR_FONT_NAME" value="Fira Code" />
         <option name="EDITOR_FONT_SIZE" value="12" />

@@ -41,8 +41,11 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         """
         private const val UPDATE_MSG = """
         <b>Night Owl</b> successfully updated!<br/>
+        <br/>
         <b>In this release</b>: <ul>
+        <li>New <i>Night Owl Carbon</i> theme!</li>
         <li>New <i>accent color</i> for theme</li>
+        <li>Reduce line spacing</li>
         </ul>
         </br>
         Visit <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github</a> for any issues you have
@@ -51,7 +54,7 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         private fun notifyUpdate(project: Project) {
             notify(
                     project = project,
-                    title = "Night Owl",
+                    title = "Night Owl: Updated to $version",
                     content = UPDATE_MSG,
                     displayId = channel
             )
