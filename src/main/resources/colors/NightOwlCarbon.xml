@@ -593,7 +593,7 @@
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="80cbc4" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
@@ -1268,7 +1268,7 @@
     </option>
     <option name="JSON.STRING">
       <value>
-        <option name="FOREGROUND" value="80cbc4" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="JSP_DIRECTIVE_NAME">
@@ -3598,7 +3598,7 @@
     </option>
     <option name="TS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="80cbc4" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="TS.PRIMITIVE.TYPES">
