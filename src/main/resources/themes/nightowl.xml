@@ -3,8 +3,6 @@
     <themeId>nightowl</themeId>
     <dark>true</dark>
     <editorColorsScheme>Night Owl</editorColorsScheme>
-    <accentColor>FF1675</accentColor>
-    <excludedColor>0B253A</excludedColor>
     <colors>
         <color id="treeSelection" value="152C3B"/>
         <color id="highlight" value="152C3B"/>
