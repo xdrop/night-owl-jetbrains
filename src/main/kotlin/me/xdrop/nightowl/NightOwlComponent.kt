@@ -57,7 +57,7 @@ class NightOwlComponent : ApplicationComponent {
         val LOG = logger<NightOwlComponent>();
 
         private fun getPlugin() = PluginManager.getPlugin(
-                PluginId.getId("me.xdrop.nightowl")
+                PluginId.getId("me.xdrop.night-owl")
         )
     }
 
