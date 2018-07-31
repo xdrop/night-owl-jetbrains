@@ -13,15 +13,18 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
     private val applicationComponent = NightOwlComponent.instance
 
     override fun projectOpened() {
-        checkAndNotifyMaterialUIVersion()
-        checkAndNotifyIfUpdated()
+        if (!checkAndNotifyMaterialUIVersion()) {
+            checkAndNotifyIfUpdated()
+        }
     }
 
-    private fun checkAndNotifyMaterialUIVersion() {
+    private fun checkAndNotifyMaterialUIVersion() : Boolean {
         val materialThemeUI = PluginManager.getPlugin(PluginId.getId("com.chrisrm.idea.MaterialThemeUI"))
         if (compareVersion(materialThemeUI?.version ?: "0.0.0", "2.6.0") < 0) {
             notifyIncompatible(myProject)
+            return true
         }
+        return false
     }
 
     private fun checkAndNotifyIfUpdated() {
@@ -63,7 +66,7 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         private fun notifyIncompatible(project: Project) {
             notify(
                     project = project,
-                    title = "Night Owl",
+                    title = "ERROR: Night Owl Incompatibility",
                     content = INCOMPATIBLE_MSG,
                     displayId = channel
             )
