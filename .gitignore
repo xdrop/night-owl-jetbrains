@@ -2,6 +2,7 @@
 build/**
 .idea/
 .gradle/
+meta/
 *.swp
 *.iml
 *.ipr
