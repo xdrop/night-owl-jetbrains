@@ -3,7 +3,7 @@
     <themeId>nightowl-carbon</themeId>
     <dark>true</dark>
     <editorColorsScheme>Night Owl Carbon</editorColorsScheme>
-    <accentColor>FF9800</accentColor>
+    <accentColor>82AAFF</accentColor>
     <excludedColor>323232</excludedColor>
     <colors>
         <color id="treeSelection" value="323232C0"/>
