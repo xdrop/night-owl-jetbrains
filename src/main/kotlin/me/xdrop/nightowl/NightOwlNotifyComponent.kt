@@ -51,7 +51,7 @@ class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(proje
         <li>Reduce line spacing</li>
         </ul>
         </br>
-        Visit <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github</a> for any issues you have
+        Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have
         """
 
         private fun notifyUpdate(project: Project) {
