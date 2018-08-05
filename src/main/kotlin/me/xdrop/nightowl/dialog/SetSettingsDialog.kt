@@ -3,9 +3,8 @@ package me.xdrop.nightowl.dialog
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.DialogWrapper
 import me.xdrop.nightowl.NightOwlAppearance
-import java.awt.event.ActionEvent
-import java.awt.event.ActionListener
-import javax.swing.*
+import javax.swing.JComponent
+import javax.swing.JPanel
 
 class SetSettingsDialog(project: Project) : DialogWrapper(project)  {
     var panel: JPanel? = null
@@ -22,5 +21,6 @@ class SetSettingsDialog(project: Project) : DialogWrapper(project)  {
 
     override fun doOKAction() {
         NightOwlAppearance.applyIdeSettings()
+        super.doOKAction()
     }
 }

@@ -34,6 +34,9 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationConfigurable instance="me.xdrop.nightowl.settings.NightOwlConfigurable"/>
         <applicationService serviceImplementation="me.xdrop.nightowl.settings.NightOwlSettings"/>
+        <annotator language="JavaScript" implementationClass="me.xdrop.nightowl.highlight.NightOwlJSAnnotator"/>
+        <annotator language="TypeScript" implementationClass="me.xdrop.nightowl.highlight.NightOwlJSAnnotator"/>
+        <colorSettingsPage implementation="me.xdrop.nightowl.settings.NightOwlColorSettingsPage"/>
     </extensions>
 
     <application-components>

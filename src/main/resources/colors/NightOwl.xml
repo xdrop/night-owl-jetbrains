@@ -3757,5 +3757,20 @@
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
+        <option name="JS_THIS_SUPER">
+            <value>
+                <option name="FOREGROUND" value="7fdbca" />
+            </value>
+        </option>
+        <option name="JS_MODULE_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="7fdbca" />
+            </value>
+        </option>
+        <option name="JS_DEBUGGER_STMT">
+            <value>
+                <option name="FOREGROUND" value="7fdbca" />
+            </value>
+        </option>
     </attributes>
 </scheme>
