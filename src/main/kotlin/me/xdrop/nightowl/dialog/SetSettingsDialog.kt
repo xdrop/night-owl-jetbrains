@@ -16,7 +16,7 @@ class SetSettingsDialog(project: Project) : DialogWrapper(project)  {
 
     init {
         super.init()
-        title = "Night Owl NightOwlAppearance Settings"
+        title = "Night Owl Appearance Settings"
         isModal = true
     }
 
