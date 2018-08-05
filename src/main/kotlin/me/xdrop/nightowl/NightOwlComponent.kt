@@ -29,12 +29,8 @@ class NightOwlComponent : ApplicationComponent {
 
         updateVersion(settings)
 
-        if (settings.isSetup || settings.isAppearanceSettingsEnabled) {
-            settings.isSetup = false
-            Appearance.applyIdeSettings()
-        }
         if (settings.isOverrideRainbowBrackets) {
-            Appearance.applyRainbowBracketsSettings()
+            NightOwlAppearance.applyRainbowBracketsSettings()
         }
     }
 

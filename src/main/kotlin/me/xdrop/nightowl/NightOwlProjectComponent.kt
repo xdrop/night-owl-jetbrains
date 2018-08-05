@@ -4,18 +4,30 @@ import com.intellij.ide.plugins.PluginManager
 import com.intellij.openapi.components.AbstractProjectComponent
 import com.intellij.openapi.extensions.PluginId
 import com.intellij.openapi.project.Project
+import me.xdrop.nightowl.dialog.SetSettingsDialog
 import me.xdrop.nightowl.settings.NightOwlSettings
 import me.xdrop.nightowl.utils.compareVersion
 import me.xdrop.nightowl.utils.notify
 
-class NightOwlNotifyComponent(project: Project) : AbstractProjectComponent(project) {
+class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(project) {
 
     private val applicationComponent = NightOwlComponent.instance
 
     override fun projectOpened() {
+        val settings = NightOwlSettings.instance
+
+        if (settings.isSetup) {
+            showAppearanceSettingsDialog()
+            settings.isSetup = false
+        }
+
         if (!checkAndNotifyMaterialUIVersion()) {
             checkAndNotifyIfUpdated()
         }
+    }
+
+    private fun showAppearanceSettingsDialog() {
+        SetSettingsDialog(myProject).show()
     }
 
     private fun checkAndNotifyMaterialUIVersion() : Boolean {

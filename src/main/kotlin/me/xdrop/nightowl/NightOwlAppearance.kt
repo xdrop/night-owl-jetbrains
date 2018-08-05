@@ -8,7 +8,7 @@ import me.xdrop.nightowl.utils.rewriteStreamTo
 import java.io.IOException
 import java.nio.file.Paths
 
-object Appearance {
+object NightOwlAppearance {
     private val uiSettings = UISettings.instance
     private val editorSettings = EditorSettingsExternalizable.getInstance()
 
