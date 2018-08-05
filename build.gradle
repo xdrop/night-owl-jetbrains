@@ -13,6 +13,8 @@ dependencies {
 group 'me.xdrop'
 version '1.2.0'
 
+def isDevMode = System.getProperty("dev")?.toBoolean() ?: false
+
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
@@ -32,11 +34,15 @@ compileKotlin {
     }
 }
 
+def pluginDependencies = ['izhangzhihao.rainbow.brackets:5.9.1', 'com.chrisrm.idea.MaterialThemeUI:2.7.1']
+
 intellij {
     pluginName 'nightowl-theme'
     version '2018.2'
-    plugins 'izhangzhihao.rainbow.brackets:5.9.1'
     updateSinceUntilBuild true
+    if (isDevMode) {
+        plugins = pluginDependencies
+    }
 }
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
