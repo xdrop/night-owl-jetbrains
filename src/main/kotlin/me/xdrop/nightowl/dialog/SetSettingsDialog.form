@@ -12,7 +12,7 @@
         <properties>
           <maximumSize width="900" height="119"/>
           <preferredSize width="500" height="102"/>
-          <text value="&lt;html&gt;Night Owl comes with a set of recommended editor and appearance settings, for a fully minimal experience. This involves hiding several toolbars, changing tab limits etc. &lt;br/&gt;&lt;br/&gt;&#10;&#10;&lt;b&gt;The theme will now apply the &lt;i&gt;recommended&lt;/i&gt; appearance settings to your editor.&lt;/b&gt;&#10;&#10;If you do not want your editor preferences to be changed please click &lt;b&gt;Cancel&lt;/b&gt; now.&#10;&lt;/html&gt;"/>
+          <text value="&lt;html&gt;Night Owl comes with a set of recommended editor and appearance settings, for a fully minimal experience. This involves hiding several toolbars and outlines. &lt;br/&gt;&lt;br/&gt;&#10;&#10;&lt;b&gt;The theme will now apply the &lt;i&gt;recommended&lt;/i&gt; appearance settings to your editor.&lt;/b&gt;&#10;&#10;If you do not want your editor preferences to be changed please click &lt;b&gt;Cancel&lt;/b&gt; now.&#10;&lt;/html&gt;"/>
           <verticalAlignment value="0"/>
         </properties>
       </component>

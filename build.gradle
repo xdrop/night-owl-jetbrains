@@ -11,7 +11,7 @@ dependencies {
 }
 
 group 'me.xdrop'
-version '1.2.1-2018.1'
+version '1.3.0-2018.1'
 
 def isDevMode = System.getProperty("dev")?.toBoolean() ?: false
 
@@ -34,14 +34,13 @@ compileKotlin {
     }
 }
 
-def pluginDependencies = ['izhangzhihao.rainbow.brackets:5.9.1', 'com.chrisrm.idea.MaterialThemeUI:2.7.1']
-
 intellij {
     pluginName 'nightowl-theme'
     version '2018.1'
     updateSinceUntilBuild true
     if (isDevMode) {
-        plugins = pluginDependencies
+        plugins = ['izhangzhihao.rainbow.brackets:5.9.1',
+                   'com.chrisrm.idea.MaterialThemeUI:2.4.1.5-2018.1']
     }
 }
 patchPluginXml {
