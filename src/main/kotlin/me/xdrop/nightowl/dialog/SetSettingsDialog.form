@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="me.xdrop.nightowl.dialog.SetSettingsDialog">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="387" height="168"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="eeda9" class="javax.swing.JLabel">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <maximumSize width="900" height="119"/>
+          <preferredSize width="500" height="102"/>
+          <text value="&lt;html&gt;Night Owl comes with a set of recommended editor and appearance settings, in order to create a minimal theme. This involves hiding several toolbars, changing tab limits etc. &lt;br/&gt;&lt;br/&gt;&#10;&#10;&lt;b&gt;The theme will now apply the &lt;i&gt;recommended&lt;/i&gt; appearance settings to your editor.&lt;/b&gt;&#10;&#10;If you do not want your editor preferences to be changed please click &lt;b&gt;Cancel&lt;/b&gt; now.&#10;&lt;/html&gt;"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

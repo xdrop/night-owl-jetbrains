@@ -44,7 +44,7 @@
 
     <project-components>
         <component>
-            <implementation-class>me.xdrop.nightowl.NightOwlNotifyComponent</implementation-class>
+            <implementation-class>me.xdrop.nightowl.NightOwlProjectComponent</implementation-class>
         </component>
     </project-components>
     <depends>com.chrisrm.idea.MaterialThemeUI</depends>

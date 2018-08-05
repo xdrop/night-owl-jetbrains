@@ -1,6 +1,6 @@
 package me.xdrop.nightowl.settings.form
 
-import me.xdrop.nightowl.Appearance
+import me.xdrop.nightowl.NightOwlAppearance
 import me.xdrop.nightowl.settings.NightOwlSettings
 import javax.swing.JButton
 import javax.swing.JCheckBox
@@ -16,7 +16,7 @@ class NightOwlSettingsForm {
     private val settings: NightOwlSettings = NightOwlSettings.instance
 
     init {
-        setNow?.addActionListener { Appearance.applyIdeSettings() }
+        setNow?.addActionListener { NightOwlAppearance.applyIdeSettings() }
         reset()
     }
 
