@@ -41,10 +41,7 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <b>Night Owl</b> successfully updated!<br/>
         <br/>
         <b>In this release</b>: <ul>
-        <li>New <i>Night Owl Carbon</i> theme!</li>
-        <li>New <i>accent color</i> for theme</li>
-        <li>Reduce line spacing</li>
-        <li>Minor color updates</li>
+        <li>Add dialog confirmation before updating settings</li>
         </ul>
         </br>
         Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have

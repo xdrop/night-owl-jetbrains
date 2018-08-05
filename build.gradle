@@ -11,7 +11,7 @@ dependencies {
 }
 
 group 'me.xdrop'
-version '1.2.0-2018.1'
+version '1.2.1-2018.1'
 
 def isDevMode = System.getProperty("dev")?.toBoolean() ?: false
 
