@@ -20,6 +20,8 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
             showAppearanceSettingsDialog()
             settings.isSetup = false
         }
+        
+        checkAndNotifyIfUpdated()
     }
 
     private fun showAppearanceSettingsDialog() {
