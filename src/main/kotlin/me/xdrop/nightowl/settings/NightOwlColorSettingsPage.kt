@@ -11,7 +11,7 @@ import java.awt.Component
 import java.awt.Graphics
 import javax.swing.Icon
 
-class NightOwlColorSettingsPage : ColorSettingsPage {
+abstract class NightOwlColorSettingsPage : ColorSettingsPage {
 
     class EmptyIcon : Icon {
         override fun getIconHeight(): Int {
@@ -39,22 +39,9 @@ class NightOwlColorSettingsPage : ColorSettingsPage {
         return EmptyIcon()
     }
 
-    override fun getAttributeDescriptors(): Array<AttributesDescriptor> {
-        return DESCRIPTORS
-    }
-
     override fun getColorDescriptors(): Array<ColorDescriptor> {
-        return emptyArray();
+        return emptyArray()
     }
 
-    override fun getDisplayName(): String = "Night Owl"
     override fun getDemoText(): String = " "
-
-    companion object {
-        private var DESCRIPTORS = arrayOf(
-                AttributesDescriptor("JSlike - this, super", NightOwlJSAnnotator.JS_THIS_SUPER),
-                AttributesDescriptor("JSlike - export, default, module", NightOwlJSAnnotator.JS_MODULE_KEYWORD),
-                AttributesDescriptor("JSlike - debugger", NightOwlJSAnnotator.JS_DEBUGGER)
-        )
-    }
 }

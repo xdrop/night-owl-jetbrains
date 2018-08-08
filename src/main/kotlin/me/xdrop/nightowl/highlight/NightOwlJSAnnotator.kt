@@ -3,6 +3,11 @@ package me.xdrop.nightowl.highlight
 import com.intellij.lang.annotation.AnnotationHolder
 import com.intellij.lang.annotation.Annotator
 import com.intellij.lang.annotation.HighlightSeverity
+import com.intellij.lang.javascript.JavaScriptHighlightingLexer
+import com.intellij.lang.javascript.JavascriptLanguage
+import com.intellij.lang.javascript.highlighting.JSHighlighter
+import com.intellij.lang.javascript.highlighting.JavaScriptColorsAndFontsPage
+import com.intellij.openapi.editor.DefaultLanguageHighlighterColors
 import com.intellij.openapi.editor.colors.TextAttributesKey
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiElement
@@ -12,7 +17,7 @@ class NightOwlJSAnnotator : Annotator {
     override fun annotate(element: PsiElement, holder: AnnotationHolder) {
         if (element is LeafPsiElement) {
             val kind = when (element.text) {
-                "this" -> JS_THIS_SUPER;
+                "this" -> JS_THIS_SUPER
                 "super" -> JS_THIS_SUPER
                 "export" -> JS_MODULE_KEYWORD
                 "default" -> JS_MODULE_KEYWORD
@@ -29,8 +34,8 @@ class NightOwlJSAnnotator : Annotator {
     }
 
     companion object {
-        public val JS_THIS_SUPER = TextAttributesKey.createTextAttributesKey("JS_THIS_SUPER")
-        public val JS_MODULE_KEYWORD = TextAttributesKey.createTextAttributesKey("JS_MODULE_KEYWORD")
-        public val JS_DEBUGGER = TextAttributesKey.createTextAttributesKey("JS_DEBUGGER_STMT")
+        val JS_THIS_SUPER = TextAttributesKey.createTextAttributesKey("JS.THIS_SUPER", JSHighlighter.JS_KEYWORD)
+        val JS_MODULE_KEYWORD = TextAttributesKey.createTextAttributesKey("JS.MODULE_KEYWORD", JSHighlighter.JS_KEYWORD)
+        val JS_DEBUGGER = TextAttributesKey.createTextAttributesKey("JS.DEBUGGER_STMT", JSHighlighter.JS_KEYWORD)
     }
 }
