@@ -13,7 +13,7 @@ Adaption of [Sarah Drasner's Night Owl](https://marketplace.visualstudio.com/ite
 <a href="https://plugins.jetbrains.com/plugin/10936-night-owl-theme"><img src="https://img.shields.io/jetbrains/plugin/d/10936-night-owl-theme.svg?style=flat-square"/></a>
 <a href="https://github.com/xdrop/night-owl-jetbrains/tree/2018.2"><img src="https://img.shields.io/github/tag/xdrop/night-owl-jetbrains.svg?style=flat-square&amp;label=latest&amp;colorB=8042f4"></a>
 <a href="https://gitter.im/night-owl-jetbrains/Lobby#"><img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square&colorB=ff69b4"></a>
-<a href="https://github.com/xdrop/night-owl-jetbrains/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat-square"></a>
+<a href="https://github.com/xdrop/night-owl-jetbrains/blob/2018.2/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat-square"></a>
 </div>
 
 ![Screenshot](screenshot2.png)
