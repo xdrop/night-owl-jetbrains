@@ -31,6 +31,8 @@
     <extensions defaultExtensionNs="com.intellij">
         <bundledColorScheme path="colors/NightOwl" id="Night Owl"/>
         <bundledColorScheme path="colors/NightOwlCarbon" id="Night Owl Carbon"/>
+        <bundledColorScheme path="colors/NightOwlNoItalic" id="Night Owl (No Italic)"/>
+        <bundledColorScheme path="colors/NightOwlCarbonNoItalic" id="Night Owl Carbon (No Italic)"/>
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">
