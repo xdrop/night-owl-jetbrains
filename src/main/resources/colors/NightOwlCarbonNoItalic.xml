@@ -736,6 +736,7 @@
         <option name="ERRORS_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ef5350"/>
+                <option name="ERROR_STRIPE_COLOR" value="ef5350"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -3590,6 +3591,7 @@
         <option name="WARNING_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="b39554"/>
+                <option name="ERROR_STRIPE_COLOR" value="b39554"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
