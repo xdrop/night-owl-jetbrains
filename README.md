@@ -8,6 +8,14 @@
 
 Adaption of [Sarah Drasner's Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) VSCode theme for Webstorm® and IntelliJ® based on [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) and [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets). Due to the *syntax highlighting* for Jetbrains® IDE's being slightly different, the highlighting won't 100% reproduce that of the VS Code plugin, but it's very similar. You can [vote](https://youtrack.jetbrains.com/issue/IDEABKL-5473) to help with this.
 
+<div align="center">
+<a href="https://plugins.jetbrains.com/plugin/10936-night-owl-theme"><img src="https://img.shields.io/jetbrains/plugin/v/10936-night-owl-theme.svg?style=flat-square&label=plugin&colorB=f07178"/></a>
+<a href="https://plugins.jetbrains.com/plugin/10936-night-owl-theme"><img src="https://img.shields.io/jetbrains/plugin/d/10936-night-owl-theme.svg?style=flat-square"/></a>
+<a href="https://github.com/xdrop/night-owl-jetbrains/tree/2018.2"><img src="https://img.shields.io/github/tag/xdrop/night-owl-jetbrains.svg?style=flat-square&amp;label=latest&amp;colorB=8042f4"></a>
+<a href="https://gitter.im/night-owl-jetbrains/Lobby#"><img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square&colorB=ff69b4"></a>
+<a href="https://github.com/xdrop/night-owl-jetbrains/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat-square"></a>
+</div>
+
 ![Screenshot](screenshot2.png)
 
 Screenshot: *Webstorm 2018.2* on *macOS Sierra*
