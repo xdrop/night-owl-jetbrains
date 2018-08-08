@@ -3691,17 +3691,17 @@
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="JS_THIS_SUPER">
+        <option name="JS.THIS_SUPER">
             <value>
                 <option name="FOREGROUND" value="7fdbca"/>
             </value>
         </option>
-        <option name="JS_MODULE_KEYWORD">
+        <option name="JS.MODULE_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="7fdbca"/>
             </value>
         </option>
-        <option name="JS_DEBUGGER_STMT">
+        <option name="JS.DEBUGGER_STMT">
             <value>
                 <option name="FOREGROUND" value="7fdbca"/>
             </value>
