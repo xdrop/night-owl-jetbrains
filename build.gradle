@@ -34,14 +34,16 @@ compileKotlin {
     }
 }
 
+def pluginsIncluded = ['JavaScriptLanguage']
 intellij {
     pluginName 'nightowl-theme'
-    version '2018.2'
+    version 'IU-2018.2'
     updateSinceUntilBuild true
     if (isDevMode) {
-        plugins = ['izhangzhihao.rainbow.brackets:5.9.1',
-                   'com.chrisrm.idea.MaterialThemeUI:2.7.1']
+        pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.9.1',
+                   'com.chrisrm.idea.MaterialThemeUI:2.7.1'])
     }
+    plugins = pluginsIncluded
 }
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
