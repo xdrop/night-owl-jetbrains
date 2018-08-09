@@ -41,12 +41,28 @@ intellij {
     updateSinceUntilBuild true
     if (isDevMode) {
         pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.9.1',
-                   'com.chrisrm.idea.MaterialThemeUI:2.7.1'])
+                                'com.chrisrm.idea.MaterialThemeUI:2.7.1'])
     }
     plugins = pluginsIncluded
 }
+
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
     sinceBuild '182.3208.14'
     untilBuild '182.*'
+}
+
+task colorsJar(type: Zip) {
+    baseName = 'night-owl-color-scheme-only'
+    extension = 'jar'
+
+    from('src/main/resources/colors') {
+        into 'colors/'
+    }
+
+    from('src/main/resources/options') {
+        into 'options/'
+    }
+
+    from('colors-jar/')
 }
