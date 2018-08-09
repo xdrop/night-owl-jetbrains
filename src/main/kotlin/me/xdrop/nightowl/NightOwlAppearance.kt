@@ -37,7 +37,7 @@ object NightOwlAppearance {
         val path = Paths.get(configPath)
 
         val classLoader = NightOwlComponent::class.java.classLoader
-        val rainbowSettings = classLoader.getResourceAsStream("colors/rainbow_brackets.xml")
+        val rainbowSettings = classLoader.getResourceAsStream("options/rainbow_brackets.xml")
         val outputFile = path.toFile()
 
         if (outputFile.exists()) {
