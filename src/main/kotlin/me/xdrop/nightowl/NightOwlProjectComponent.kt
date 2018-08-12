@@ -61,7 +61,8 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <li>Add no italic color schemes</li>
         </ul>
         </br>
-        Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have
+        Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have.
+        Give us a <a href="https://github.com/xdrop/night-owl-jetbrains">star</a> if you enjoy this theme!
         """
 
         private fun notifyUpdate(project: Project) {
