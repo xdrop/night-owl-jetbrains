@@ -1371,6 +1371,11 @@
                 <option name="FOREGROUND" value="908b25"/>
             </value>
         </option>
+        <option name="MAGIC_MEMBER_ACCESS">
+            <value>
+                <option name="FOREGROUND" value="addb67"/>
+            </value>
+        </option>
         <option name="MARKDOWN.AUTO_LINK">
             <value>
                 <option name="FOREGROUND" value="ff355b"/>
@@ -2440,7 +2445,7 @@
         </option>
         <option name="PHP_CLASS">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="addb67"/>
             </value>
         </option>
         <option name="PHP_COMMA">
@@ -2472,11 +2477,6 @@
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="PHP_ESCAPE_SEQUENCE">
-            <value>
-                <option name="FOREGROUND" value="c3e88d"/>
-            </value>
-        </option>
         <option name="PHP_EXEC_COMMAND_ID">
             <value>
                 <option name="FOREGROUND" value="c3e887"/>
@@ -2489,7 +2489,7 @@
         </option>
         <option name="PHP_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="82b1ff"/>
+                <option name="FOREGROUND" value="addb67"/>
             </value>
         </option>
         <option name="PHP_HEREDOC_CONTENT">
@@ -2504,7 +2504,9 @@
         </option>
         <option name="PHP_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="c3d3de"/>
+                <option name="FOREGROUND" value="d6deeb"/>
+                <option name="BACKGROUND" value="11627"/>
+                <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
         <option name="PHP_INSTANCE_FIELD">
@@ -2514,12 +2516,12 @@
         </option>
         <option name="PHP_INSTANCE_METHOD">
             <value>
-                <option name="FOREGROUND" value="82aaff"/>
+                <option name="FOREGROUND" value="addb67"/>
             </value>
         </option>
         <option name="PHP_INTERFACE">
             <value>
-                <option name="FOREGROUND" value="c3e88d"/>
+                <option name="FOREGROUND" value="78ccf0"/>
             </value>
         </option>
         <option name="PHP_KEYWORD">
@@ -2528,14 +2530,7 @@
             </value>
         </option>
         <option name="PHP_MARKUP_ID">
-            <value>
-                <option name="FOREGROUND" value="676e95"/>
-            </value>
-        </option>
-        <option name="PHP_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="f78c6c"/>
-            </value>
+            <value/>
         </option>
         <option name="PHP_OPERATION_SIGN">
             <value>
@@ -2544,7 +2539,7 @@
         </option>
         <option name="PHP_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="d6deeb"/>
             </value>
         </option>
         <option name="PHP_PARENTHESES">
@@ -2572,12 +2567,7 @@
         </option>
         <option name="PHP_STATIC_METHOD">
             <value>
-                <option name="FOREGROUND" value="82aaff"/>
-            </value>
-        </option>
-        <option name="PHP_STRING">
-            <value>
-                <option name="FOREGROUND" value="c3e887"/>
+                <option name="FOREGROUND" value="addb67"/>
             </value>
         </option>
         <option name="PHP_TAG">
@@ -2587,7 +2577,7 @@
         </option>
         <option name="PHP_VAR">
             <value>
-                <option name="FOREGROUND" value="959dcb"/>
+                <option name="FOREGROUND" value="7fdbca"/>
             </value>
         </option>
         <option name="PHP_VAR_VAR">
