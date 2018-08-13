@@ -24,7 +24,7 @@ Screenshot font: **Fira Code 14pt *(+font ligatures)***
 
 ### Support
 
-So far there is support for Java, Python, Javascript, Typescript with React and Angular, feel free to PR for more :smile:
+So far there is support for Java, Python, Javascript, PHP, Typescript with React and Angular, feel free to PR for more :smile:
 
 - [x] Javascript
 - [x] ReactJS
@@ -32,6 +32,7 @@ So far there is support for Java, Python, Javascript, Typescript with React and 
 - [x] Angular
 - [x] Java
 - [x] Python
+- [x] PHP
 - [ ] Vue
 - [ ] SCSS
 - [ ] Other languages
