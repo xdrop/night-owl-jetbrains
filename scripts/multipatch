@@ -1,0 +1,5 @@
+git diff $1^ $1 -- src/main/resources/colors/NightOwl.xml > patchfile
+patch -p1 src/main/resources/colors/NightOwlNoItalic.xml ./patchfile
+patch -p1 src/main/resources/colors/NightOwlCarbonNoItalic.xml ./patchfile
+patch -p1 src/main/resources/colors/NightOwlCarbon.xml ./patchfile
+
