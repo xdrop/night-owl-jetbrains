@@ -1,11 +1,10 @@
-_= REMOVE BEFORE SUBMITTING =_
+==REMOVE BEFORE SUBMITTING==
 
-> Guideline for reporting _issues_ is defined below. If you are not reporting an issue you do not need to use this. 
-> 
-> Please give us a :star: if you enjoy this theme.
-> 
+Guideline for reporting _issues_ is defined below. If you are not reporting an issue you do not need to use this. 
+ 
+Please give us a :star: if you enjoy this theme.
 
-_= REMOVE BEFORE SUBMITTING =_
+==REMOVE BEFORE SUBMITTING==
 
 ## Expected Behaviour
 
