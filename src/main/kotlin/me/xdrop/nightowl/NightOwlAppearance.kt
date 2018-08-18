@@ -5,7 +5,6 @@ package me.xdrop.nightowl
 import com.intellij.ide.ui.UISettings
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.components.stateStore
-import com.intellij.openapi.editor.colors.EditorColorsManager
 import com.intellij.openapi.editor.ex.EditorSettingsExternalizable
 import com.intellij.openapi.vcs.VcsApplicationSettings
 import me.xdrop.nightowl.utils.rewriteStreamTo
