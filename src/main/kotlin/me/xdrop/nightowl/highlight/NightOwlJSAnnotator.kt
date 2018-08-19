@@ -3,11 +3,7 @@ package me.xdrop.nightowl.highlight
 import com.intellij.lang.annotation.AnnotationHolder
 import com.intellij.lang.annotation.Annotator
 import com.intellij.lang.annotation.HighlightSeverity
-import com.intellij.lang.javascript.JavaScriptHighlightingLexer
-import com.intellij.lang.javascript.JavascriptLanguage
 import com.intellij.lang.javascript.highlighting.JSHighlighter
-import com.intellij.lang.javascript.highlighting.JavaScriptColorsAndFontsPage
-import com.intellij.openapi.editor.DefaultLanguageHighlighterColors
 import com.intellij.openapi.editor.colors.TextAttributesKey
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiElement

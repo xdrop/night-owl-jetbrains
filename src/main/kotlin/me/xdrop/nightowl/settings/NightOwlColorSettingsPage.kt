@@ -3,10 +3,8 @@ package me.xdrop.nightowl.settings
 import com.intellij.openapi.editor.colors.TextAttributesKey
 import com.intellij.openapi.fileTypes.PlainSyntaxHighlighter
 import com.intellij.openapi.fileTypes.SyntaxHighlighter
-import com.intellij.openapi.options.colors.AttributesDescriptor
 import com.intellij.openapi.options.colors.ColorDescriptor
 import com.intellij.openapi.options.colors.ColorSettingsPage
-import me.xdrop.nightowl.highlight.NightOwlJSAnnotator
 import java.awt.Component
 import java.awt.Graphics
 import javax.swing.Icon
