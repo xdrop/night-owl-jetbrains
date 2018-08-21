@@ -20,12 +20,12 @@
     <option name="CONSOLE_FONT_SIZE" value="12"/>
     <option name="CONSOLE_LINE_SPACING" value="1.0"/>
     <colors>
-        <option name="ADDED_LINES_COLOR" value=""/>
+        <option name="ADDED_LINES_COLOR" value="addb67"/>
         <option name="ANNOTATIONS_COLOR" value="fffbf7"/>
         <option name="CARET_COLOR" value="7e57c2"/>
         <option name="CARET_ROW_COLOR" value="353334"/>
         <option name="CONSOLE_BACKGROUND_KEY" value=""/>
-        <option name="DELETED_LINES_COLOR" value=""/>
+        <option name="DELETED_LINES_COLOR" value="ff5370"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30"/>
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b"/>
         <option name="DOCUMENTATION_COLOR" value="292d3e"/>
@@ -50,7 +50,7 @@
         <option name="INFORMATION_HINT" value="292d3e"/>
         <option name="LINE_NUMBERS_COLOR" value="5f7e97"/>
         <option name="METHOD_SEPARATORS_COLOR" value="828ed5"/>
-        <option name="MODIFIED_LINES_COLOR" value=""/>
+        <option name="MODIFIED_LINES_COLOR" value="ffcb6b"/>
         <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967"/>
         <option name="MT_SUPPRESSED" value="676e95"/>
         <option name="NOTIFICATION_BACKGROUND" value="3d1a11"/>
@@ -70,7 +70,7 @@
         <option name="VCS_ANNOTATIONS_COLOR_5" value="f07178"/>
         <option name="VISUAL_INDENT_GUIDE" value=""/>
         <option name="WHITESPACES" value="828ed5"/>
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value=""/>
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="99b89d"/>
     </colors>
     <attributes>
         <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
