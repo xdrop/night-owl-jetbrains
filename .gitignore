@@ -6,5 +6,6 @@ meta/
 *.swp
 *.iml
 *.ipr
+*.rej
 *.iws
 *.orig
