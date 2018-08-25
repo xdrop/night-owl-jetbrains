@@ -58,8 +58,7 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <b>Night Owl</b> successfully updated!<br/>
         <br/>
         <b>In this release</b>: <ul>
-        <li>Add PHP support</li>
-        <li>Errors now correctly underwaved</li>
+        <li>VCS modified lines now highlighted</li>
         </ul>
         </br>
         Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have.
