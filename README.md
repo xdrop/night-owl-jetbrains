@@ -56,10 +56,14 @@ The plugin is now available on the Jetbrains plugin repository :star2:. **Before
 
 Adjust as needed from Material UI settings in Preferences, or adjust colors from Color Scheme in Preferences.
 
+### Curent Themes
 
-### Color Scheme Only
+- Night Owl
+- Night Owl Carbon
 
-A color scheme only release (theme not included) can be found under [Releases](https://github.com/xdrop/night-owl-jetbrains/releases)
+### Colour Scheme Only
+
+A colour scheme only release (theme not included) can be found under [Releases](https://github.com/xdrop/night-owl-jetbrains/releases)
 
 ### Credits
 
