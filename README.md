@@ -54,14 +54,12 @@ The plugin is now available on the Jetbrains plugin repository :star2:. **Before
 4. Activate by going to **Tools** > **Material Theme** > **Material Theme Chooser** > **External Themes** >  **Night Owl Theme** 
 
 
-
-​    
-
-
-
 Adjust as needed from Material UI settings in Preferences, or adjust colors from Color Scheme in Preferences.
 
 
+### Color Scheme Only
+
+A color scheme only release (theme not included) can be found under [Releases](https://github.com/xdrop/night-owl-jetbrains/releases)
 
 ### Credits
 
@@ -70,8 +68,6 @@ Adjust as needed from Material UI settings in Preferences, or adjust colors from
 - [Material UI Jetbrains](https://github.com/ChrisRM/material-theme-jetbrains)
 
 - [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets)
-
-
 
 
 ### Trademarks
