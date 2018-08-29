@@ -19,6 +19,8 @@ class NightOwlJSAnnotator : Annotator {
                 "default" -> JS_MODULE_KEYWORD
                 "module" -> JS_MODULE_KEYWORD
                 "debugger" -> JS_DEBUGGER
+                "null" -> JS_NULL_KEYWORD
+                "undefined" -> JS_NULL_KEYWORD
                 else -> {
                     return
                 }
@@ -33,5 +35,6 @@ class NightOwlJSAnnotator : Annotator {
         val JS_THIS_SUPER = TextAttributesKey.createTextAttributesKey("JS.THIS_SUPER", JSHighlighter.JS_KEYWORD)
         val JS_MODULE_KEYWORD = TextAttributesKey.createTextAttributesKey("JS.MODULE_KEYWORD", JSHighlighter.JS_KEYWORD)
         val JS_DEBUGGER = TextAttributesKey.createTextAttributesKey("JS.DEBUGGER_STMT", JSHighlighter.JS_KEYWORD)
+        val JS_NULL_KEYWORD = TextAttributesKey.createTextAttributesKey("JS.NULL_UNDEFINED", JSHighlighter.JS_KEYWORD)
     }
 }
