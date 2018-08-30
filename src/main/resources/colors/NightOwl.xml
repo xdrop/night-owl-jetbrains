@@ -3764,5 +3764,10 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
+        <option name="JS.NULL_UNDEFINED">
+            <value>
+                <option name="FOREGROUND" value="ff5874"/>
+            </value>
+        </option>
     </attributes>
 </scheme>
