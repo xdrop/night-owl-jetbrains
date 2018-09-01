@@ -41,7 +41,7 @@
         <annotator language="JavaScript" implementationClass="me.xdrop.nightowl.highlight.NightOwlJSAnnotator"/>
         <annotator language="TypeScript" implementationClass="me.xdrop.nightowl.highlight.NightOwlJSAnnotator"/>
         <annotator language="JAVA" implementationClass="me.xdrop.nightowl.highlight.NightOwlJavaAndKotlinAnnotator"/>
-        <annotator language="" implementationClass="me.xdrop.nightowl.highlight.NightOwlJavaAndKotlinAnnotator"/>
+        <annotator language="kotlin" implementationClass="me.xdrop.nightowl.highlight.NightOwlJavaAndKotlinAnnotator"/>
         <colorSettingsPage implementation="me.xdrop.nightowl.settings.colors.NightOwlJavascriptColorSettings"/>
         <colorSettingsPage implementation="me.xdrop.nightowl.settings.colors.NightOwlJavaColorSettings"/>
     </extensions>
