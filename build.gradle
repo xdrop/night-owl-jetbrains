@@ -1,9 +1,9 @@
 buildscript {
-    ext.kotlin_version = '1.2.31'
+    ext.kotlin_version = '1.2.61'
 }
 plugins {
     id 'org.jetbrains.intellij' version '0.3.4'
-    id 'org.jetbrains.kotlin.jvm' version '1.2.31'
+    id 'org.jetbrains.kotlin.jvm' version '1.2.61'
 }
 
 dependencies {
@@ -34,10 +34,10 @@ compileKotlin {
     }
 }
 
-def pluginsIncluded = ['JavaScriptLanguage']
+def pluginsIncluded = ['JavaScriptLanguage', "org.jetbrains.kotlin:$kotlin_version-release-IJ$ideaVersion-1"]
 intellij {
     pluginName 'nightowl-theme'
-    version 'IU-2018.2'
+    version "IU-$ideaVersion"
     updateSinceUntilBuild true
     if (isDevMode) {
         pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.9.1',
