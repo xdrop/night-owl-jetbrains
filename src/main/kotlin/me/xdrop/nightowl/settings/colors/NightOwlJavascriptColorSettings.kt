@@ -16,7 +16,7 @@ class NightOwlJavascriptColorSettings : NightOwlColorSettingsPage() {
                 AttributesDescriptor("Keyword: this, super", NightOwlJSAnnotator.JS_THIS_SUPER),
                 AttributesDescriptor("Keyword: export, default, module", NightOwlJSAnnotator.JS_MODULE_KEYWORD),
                 AttributesDescriptor("Keyword: debugger", NightOwlJSAnnotator.JS_DEBUGGER),
-                AttributesDescriptor("Keyword: this, undefined", NightOwlJSAnnotator.JS_NULL_KEYWORD)
+                AttributesDescriptor("Keyword: null, undefined", NightOwlJSAnnotator.JS_NULL_KEYWORD)
         )
     }
 }
