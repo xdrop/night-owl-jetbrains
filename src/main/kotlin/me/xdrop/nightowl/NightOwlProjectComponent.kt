@@ -43,7 +43,9 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <b>Night Owl</b> successfully updated!<br/>
         <br/>
         <b>In this release</b>: <ul>
-        <li>VCS modified lines now highlighted</li>
+        <ul>
+        <li><i>null</i> and <i>undefined</i> now highlighted differently for <b>Javascript</b> and <b>Typescript</b></li>
+        <li><i>null</i> is now highlighted differently for <b>Java</b> and <b>Kotlin</b></li>
         </ul>
         </br>
         Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have.
