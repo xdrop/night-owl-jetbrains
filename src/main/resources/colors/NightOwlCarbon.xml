@@ -3738,9 +3738,34 @@
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
+        <option name="JS.THIS_SUPER">
+            <value>
+                <option name="FOREGROUND" value="7fdbca"/>
+            </value>
+        </option>
+        <option name="JS.MODULE_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="7fdbca"/>
+            </value>
+        </option>
+        <option name="JS.DEBUGGER_STMT">
+            <value>
+                <option name="FOREGROUND" value="7fdbca"/>
+            </value>
+        </option>
         <option name="JS.NULL_UNDEFINED">
             <value>
                 <option name="FOREGROUND" value="ff5874"/>
+            </value>
+        </option>
+        <option name="JAVA_KOTLIN_THIS_SUPER_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="7fdbca"/>
+            </value>
+        </option>
+        <option name="JAVA_KOTLIN_NULL_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="7fdbca"/>
             </value>
         </option>
     </attributes>
