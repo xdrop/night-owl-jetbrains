@@ -59,8 +59,7 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-        <li><i>null</i> and <i>undefined</i> now highlighted differently for <b>Javascript</b> and <b>Typescript</b></li>
-        <li><i>null</i> is now highlighted differently for <b>Java</b> and <b>Kotlin</b></li>
+        <li>Update for 2018.3</li>
         </ul>
         </br>
         Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have.

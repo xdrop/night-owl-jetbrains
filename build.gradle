@@ -11,7 +11,7 @@ dependencies {
 }
 
 group 'me.xdrop'
-version '1.3.4'
+version '1.3.5'
 
 def isDevMode = System.getProperty("dev")?.toBoolean() ?: false
 
@@ -37,19 +37,19 @@ compileKotlin {
 def pluginsIncluded = ['JavaScriptLanguage', "org.jetbrains.kotlin:$kotlin_version-release-IJ$ideaVersion-1"]
 intellij {
     pluginName 'nightowl-theme'
-    version "IU-$ideaVersion"
+    version "IU-183.3795.13"
     updateSinceUntilBuild true
     if (isDevMode) {
         pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.9.1',
-                                'com.chrisrm.idea.MaterialThemeUI:2.7.1'])
+                                'com.chrisrm.idea.MaterialThemeUI:2.10.5.2'])
     }
     plugins = pluginsIncluded
 }
 
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
-    sinceBuild '182.3208.14'
-    untilBuild '182.*'
+    sinceBuild '183.2940.0'
+    untilBuild '183.*'
 }
 
 task colorsJar(type: Zip) {
