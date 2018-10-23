@@ -40,7 +40,7 @@ intellij {
     version "IU-183.3795.13"
     updateSinceUntilBuild true
     if (isDevMode) {
-        pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.9.1',
+        pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.10',
                                 'com.chrisrm.idea.MaterialThemeUI:2.10.5.2'])
     }
     plugins = pluginsIncluded
