@@ -1,12 +1,8 @@
 package me.xdrop.nightowl.highlight
 
-import com.intellij.ide.highlighter.JavaFileHighlighter
-import com.intellij.ide.highlighter.JavaHighlightingColors
 import com.intellij.lang.annotation.AnnotationHolder
 import com.intellij.lang.annotation.Annotator
 import com.intellij.lang.annotation.HighlightSeverity
-import com.intellij.lang.java.JavaSyntaxHighlighterFactory
-import com.intellij.lang.javascript.highlighting.JSHighlighter
 import com.intellij.openapi.editor.colors.TextAttributesKey
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiElement
@@ -30,7 +26,7 @@ class NightOwlJavaAndKotlinAnnotator : Annotator {
     }
 
     companion object {
-        val JAVA_THIS_SUPER = TextAttributesKey.createTextAttributesKey("JAVA_KOTLIN_THIS_SUPER_KEYWORD", JavaHighlightingColors.KEYWORD)
-        val JAVA_NULL = TextAttributesKey.createTextAttributesKey("JAVA_KOTLIN_NULL_KEYWORD", JavaHighlightingColors.KEYWORD)
+        val JAVA_THIS_SUPER = TextAttributesKey.createTextAttributesKey("JAVA_KOTLIN_THIS_SUPER_KEYWORD", TextAttributesKey.find("JAVA_KEYWORD"))
+        val JAVA_NULL = TextAttributesKey.createTextAttributesKey("JAVA_KOTLIN_NULL_KEYWORD", TextAttributesKey.find("JAVA_KEYWORD"))
     }
 }
