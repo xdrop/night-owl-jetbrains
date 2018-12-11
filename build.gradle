@@ -11,7 +11,7 @@ dependencies {
 }
 
 group 'me.xdrop'
-version '1.3.5'
+version '1.3.6'
 
 def isDevMode = System.getProperty("dev")?.toBoolean() ?: false
 
@@ -37,7 +37,7 @@ compileKotlin {
 def pluginsIncluded = ['JavaScriptLanguage', "org.jetbrains.kotlin:$kotlin_version-release-IJ$ideaVersion-1"]
 intellij {
     pluginName 'nightowl-theme'
-    version "IU-183.3795.13"
+    version "IU-2018.3"
     updateSinceUntilBuild true
     if (isDevMode) {
         pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.10',
