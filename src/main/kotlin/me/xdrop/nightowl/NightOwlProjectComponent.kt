@@ -59,7 +59,8 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-        <li>Fix exception with class not found</li>
+            <li>Add visual indent guide</li>
+            <li>Add support for 2019.1 EAP</li>
         </ul>
         </br>
         Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have.
