@@ -21,5 +21,7 @@
         <color id="notifications" value="1A1A1A"/>
         <color id="foreground" value="B0BEC5"/>
         <color id="background" value="212121"/>
+        <color id="excluded" value="82AAFF"/>
+        <color id="accent" value="323232"/>
     </colors>
 </mtTheme>
