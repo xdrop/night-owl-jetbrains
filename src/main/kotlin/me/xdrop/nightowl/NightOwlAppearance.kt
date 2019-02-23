@@ -16,10 +16,28 @@ object NightOwlAppearance {
     private val editorSettings = EditorSettingsExternalizable.getInstance()
     private val vcsSettings = VcsApplicationSettings.getInstance()
 
+    fun resetMainToolbar() { uiSettings.showMainToolbar = true }
+    fun resetStatusBar() { uiSettings.showStatusBar = true }
+    fun resetNavBar() { uiSettings.showNavigationBar = true }
+    fun resetBreadcrumbs() { editorSettings.isBreadcrumbsShown = true }
+    fun resetIndentGuides() { editorSettings.isIndentGuidesShown = true }
+    fun resetFoldingOutline() { editorSettings.isFoldingOutlineShown = true }
+    fun resetVCS() { vcsSettings.SHOW_LST_GUTTER_MARKERS = true }
+
     fun applyIdeSettings() {
         applyEditorSettings()
         applyUISettings()
         applyVCSSettings()
+    }
+
+    fun resetIdeSettings() {
+        resetMainToolbar()
+        resetStatusBar()
+        resetNavBar()
+        resetBreadcrumbs()
+        resetIndentGuides()
+        resetFoldingOutline()
+        resetVCS()
     }
 
     fun applyEditorSettings() {

@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="me.xdrop.nightowl.dialog.SetSettingsDialog">
   <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="387" height="168"/>
+      <xy x="20" y="20" width="387" height="276"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -12,7 +12,7 @@
         <properties>
           <maximumSize width="900" height="119"/>
           <preferredSize width="500" height="102"/>
-          <text value="&lt;html&gt;Night Owl comes with a set of recommended editor and appearance settings, for a fully minimal experience. This involves hiding several toolbars and outlines. &lt;br/&gt;&lt;br/&gt;&#10;&#10;&lt;b&gt;The theme will now apply the &lt;i&gt;recommended&lt;/i&gt; appearance settings to your editor.&lt;/b&gt;&#10;&#10;If you do not want your editor preferences to be changed please click &lt;b&gt;Cancel&lt;/b&gt; now.&#10;&lt;/html&gt;"/>
+          <text value="&lt;html&gt;Night Owl comes with a set of recommended editor and appearance settings, for a fully minimal experience. This involves hiding several toolbars and outlines. &lt;br/&gt;&lt;br/&gt; These include: &lt;ul&gt; &#9;&lt;li&gt;Breadcrumbs&lt;/li&gt; &#9;&lt;li&gt;Indent guides&lt;/li&gt; &#9;&lt;li&gt;Folding outline&lt;/li&gt; &#9;&lt;li&gt;Main toolbar&lt;/li&gt; &#9;&lt;li&gt;Status bar&lt;/li&gt; &#9;&lt;li&gt;Navigation bar&lt;/li&gt; &#9;&lt;li&gt;Version control gutter markers&lt;/li&gt; &lt;/ul&gt; You can re-enable these at the settings menu of the plugin.&lt;br/&gt;  &lt;b&gt;The theme will now apply the &lt;i&gt;recommended&lt;/i&gt; appearance settings to your editor.&lt;/b&gt;  If you do not want your editor preferences to be changed please click &lt;b&gt;Cancel&lt;/b&gt; now. &lt;/html&gt;"/>
           <verticalAlignment value="0"/>
         </properties>
       </component>

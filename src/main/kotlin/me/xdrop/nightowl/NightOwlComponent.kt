@@ -2,13 +2,13 @@ package me.xdrop.nightowl
 
 import com.intellij.ide.plugins.PluginManager
 import com.intellij.openapi.application.ApplicationManager
-import com.intellij.openapi.components.ApplicationComponent
+import com.intellij.openapi.components.BaseComponent
 import com.intellij.openapi.diagnostic.logger
 import com.intellij.openapi.extensions.PluginId
 import me.xdrop.nightowl.settings.NightOwlSettings
 import java.io.IOException
 
-class NightOwlComponent : ApplicationComponent {
+class NightOwlComponent : BaseComponent {
 
     var hasUpdated: Boolean = false
 

@@ -12,11 +12,27 @@ class NightOwlSettingsForm {
     private var isAppearanceSettingsEnabledCheckBox: JCheckBox? = null
     private var isOverrideRainbowBracketsCheckBox: JCheckBox? = null
     private var setNow: JButton? = null
+    private var setIndent: JButton? = null
+    private var setBreadcrumbs: JButton? = null
+    private var setStatus: JButton? = null
+    private var setToolbar: JButton? = null
+    private var setFolding: JButton? = null
+    private var setNavigation: JButton? = null
+    private var setVCS: JButton? = null
+    private var setBack: JButton? = null
 
     private val settings: NightOwlSettings = NightOwlSettings.instance
 
     init {
         setNow?.addActionListener { NightOwlAppearance.applyIdeSettings() }
+        setIndent?.addActionListener { NightOwlAppearance.resetIndentGuides() }
+        setBreadcrumbs?.addActionListener { NightOwlAppearance.resetBreadcrumbs() }
+        setStatus?.addActionListener { NightOwlAppearance.resetStatusBar() }
+        setToolbar?.addActionListener { NightOwlAppearance.resetMainToolbar() }
+        setNavigation?.addActionListener { NightOwlAppearance.resetNavBar() }
+        setVCS?.addActionListener { NightOwlAppearance.resetVCS() }
+        setFolding?.addActionListener { NightOwlAppearance.resetFoldingOutline() }
+        setBack?.addActionListener { NightOwlAppearance.resetIdeSettings() }
         reset()
     }
 
@@ -28,7 +44,7 @@ class NightOwlSettingsForm {
     }
 
     val isAppearanceSettingsEnabled
-            get() = isAppearanceSettingsEnabledCheckBox?.isSelected
+        get() = isAppearanceSettingsEnabledCheckBox?.isSelected
 
     val isOverrideRainbowBrackets
         get() = isOverrideRainbowBracketsCheckBox?.isSelected
