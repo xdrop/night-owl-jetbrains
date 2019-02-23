@@ -59,8 +59,10 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-            <li>Add visual indent guide</li>
-            <li>Add support for 2019.1 EAP</li>
+            <li>New <b>Night Owl Palenight</b> theme</li>
+            <li>Allow reverting to stock UI settings (From settings dialog)</li>
+            <li>Improve warning message regarding UI changes</li>
+            <li>Fix bug with latest Material UI plugin</li>
         </ul>
         </br>
         Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have.

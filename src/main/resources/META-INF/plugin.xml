@@ -27,12 +27,15 @@
     <extensions defaultExtensionNs="com.chrisrm.idea.MaterialThemeUI">
         <bundledTheme name="Night Owl" path="/themes/nightowl"/>
         <bundledTheme name="Night Owl Carbon" path="/themes/nightowl-carbon"/>
+        <bundledTheme name="Night Owl Palenight" path="/themes/nightowl-palenight"/>
     </extensions>
     <extensions defaultExtensionNs="com.intellij">
         <bundledColorScheme path="colors/NightOwl" id="Night Owl"/>
         <bundledColorScheme path="colors/NightOwlCarbon" id="Night Owl Carbon"/>
         <bundledColorScheme path="colors/NightOwlNoItalic" id="Night Owl (No Italic)"/>
         <bundledColorScheme path="colors/NightOwlCarbonNoItalic" id="Night Owl Carbon (No Italic)"/>
+        <bundledColorScheme path="colors/NightOwlPalenight" id="Night Owl Palenight"/>
+        <bundledColorScheme path="colors/NightOwlPalenightNoItalic" id="Night Owl Palenight (No Italic)"/>
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">

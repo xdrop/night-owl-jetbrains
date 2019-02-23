@@ -1,0 +1,27 @@
+<mtTheme>
+    <name>Night Owl Palenight</name>
+    <themeId>nightowl-palenight</themeId>
+    <dark>true</dark>
+    <editorColorsScheme>Night Owl Palenight</editorColorsScheme>
+    <accentColor>ab47bc</accentColor>
+    <excludedColor>2f2e43</excludedColor>
+    <colors>
+        <color id="treeSelection" value="4A4E6B"/>
+        <color id="highlight" value="444267"/>
+        <color id="secondBorder" value="2b2a3e"/>
+        <color id="contrast" value="202331"/>
+        <color id="button" value="303348"/>
+        <color id="selectionForeground" value="ffffff"/>
+        <color id="selectionBackground" value="3C435E"/>
+        <color id="secondaryBackground" value="34324a"/>
+        <color id="disabled" value="515772"/>
+        <color id="tableSelected" value="152C3B"/>
+        <color id="secondBorder" value="21222C"/>
+        <color id="text" value="676E95"/>
+        <color id="notifications" value="202331"/>
+        <color id="foreground" value="A6ACCD"/>
+        <color id="background" value="292D3E"/>
+        <color id="excluded" value="2f2e43"/>
+        <color id="accent" value="ab47bc"/>
+    </colors>
+</mtTheme>
