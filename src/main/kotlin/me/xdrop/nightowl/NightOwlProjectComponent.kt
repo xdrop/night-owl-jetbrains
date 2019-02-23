@@ -62,9 +62,11 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
             <li>New <b>Night Owl Palenight</b> theme</li>
             <li>Allow reverting to stock UI settings (From settings dialog)</li>
             <li>Improve warning message regarding UI changes</li>
-            <li>Fix bug with latest Material UI plugin</li>
+            <li>Update for latest Material UI plugin</li>
         </ul>
-        </br>
+        <br/>
+        You can enable Night Owl under <b>Tools > Material Theme > External Themes</b>
+        <br/>
         Visit our <a href="https://github.com/xdrop/night-owl-jetbrains/issues">Github page</a> for any issues you have.
         Give us a <a href="https://github.com/xdrop/night-owl-jetbrains">star</a> if you enjoy this theme!
         """

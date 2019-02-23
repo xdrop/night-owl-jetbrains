@@ -1,7 +1,6 @@
 package me.xdrop.nightowl.settings.colors
 
 import com.intellij.openapi.options.colors.AttributesDescriptor
-import me.xdrop.nightowl.highlight.NightOwlJSAnnotator
 import me.xdrop.nightowl.highlight.NightOwlJavaAndKotlinAnnotator
 import me.xdrop.nightowl.settings.NightOwlColorSettingsPage
 
