@@ -59,10 +59,8 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-            <li>New <b>Night Owl Palenight</b> theme</li>
-            <li>Allow reverting to stock UI settings (From settings dialog)</li>
-            <li>Improve warning message regarding UI changes</li>
-            <li>Update for latest Material UI plugin</li>
+            <li>New <b>Light Owl</b> light version of the theme!</li>
+            <li>Fix issue with incorrect directory highlighting under certain conditions</li>
         </ul>
         <br/>
         You can enable Night Owl under <b>Tools > Material Theme > External Themes</b>

@@ -25,7 +25,6 @@ class NightOwlConfigurable : Configurable {
     override fun apply() {
         val settings = NightOwlSettings.instance
         settings.isAppearanceSettingsEnabled = settingsForm?.isAppearanceSettingsEnabled ?: false
-        settings.isOverrideRainbowBrackets = settingsForm?.isOverrideRainbowBrackets ?: true
     }
 
     override fun reset() {

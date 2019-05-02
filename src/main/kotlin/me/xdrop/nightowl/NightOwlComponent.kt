@@ -29,9 +29,6 @@ class NightOwlComponent : BaseComponent {
 
         updateVersion(settings)
 
-        if (settings.isOverrideRainbowBrackets) {
-            NightOwlAppearance.applyRainbowBracketsSettings()
-        }
     }
 
     private fun hasUpdated(settings: NightOwlSettings): Boolean {

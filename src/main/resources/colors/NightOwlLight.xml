@@ -23,7 +23,7 @@
         <option name="ADDED_LINES_COLOR" value="4876d6"/>
         <option name="ANNOTATIONS_COLOR" value="fffbf7"/>
         <option name="CARET_COLOR" value="7e57c2"/>
-        <option name="CARET_ROW_COLOR" value="353334"/>
+        <option name="CARET_ROW_COLOR" value="ECECEC"/>
         <option name="CONSOLE_BACKGROUND_KEY" value=""/>
         <option name="DELETED_LINES_COLOR" value="ff5370"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30"/>
@@ -45,7 +45,7 @@
         <option name="FILESTATUS_SWITCHED" value="8978f"/>
         <option name="FILESTATUS_UNKNOWN" value="f77669"/>
         <option name="FILESTATUS_modifiedOutside" value="994cc3"/>
-        <option name="GUTTER_BACKGROUND" value="F0F0F0"/>
+        <option name="GUTTER_BACKGROUND" value="FBFBFB"/>
         <option name="INDENT_GUIDE" value="34324a"/>
         <option name="INFORMATION_HINT" value="292d3e"/>
         <option name="LINE_NUMBERS_COLOR" value="5f7e97"/>
@@ -3556,7 +3556,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="403F53"/>
-                <option name="BACKGROUND" value="fafafa"/>
+                <option name="BACKGROUND" value="FBFBFB"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
