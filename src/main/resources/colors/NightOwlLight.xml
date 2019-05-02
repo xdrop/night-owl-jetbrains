@@ -1,11 +1,10 @@
-<scheme name="Night Owl Palenight" version="142" parent_scheme="Darcula">
+<scheme name="Night Owl Carbon" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0"/>
     <metaInfo>
-        <property name="created">2019-02-23T16:41:53</property>
+        <property name="created">2018-07-31T11:02:10</property>
         <property name="ide">idea</property>
-        <property name="ideVersion">2019.1.0.0</property>
-        <property name="modified">2019-02-23T16:45:38</property>
-        <property name="originalScheme">Night Owl</property>
+        <property name="ideVersion">2018.1.0.0</property>
+        <property name="modified">2018-07-31T11:04:26</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.2"/>
     <font>
@@ -17,20 +16,14 @@
         <option name="EDITOR_FONT_SIZE" value="12"/>
     </font>
     <option name="EDITOR_LIGATURES" value="true"/>
-    <console-font>
-        <option name="EDITOR_FONT_NAME" value="Fira Code"/>
-        <option name="EDITOR_FONT_SIZE" value="12"/>
-    </console-font>
-    <console-font>
-        <option name="EDITOR_FONT_NAME" value="Source Code Pro"/>
-        <option name="EDITOR_FONT_SIZE" value="12"/>
-    </console-font>
-    <option name="CONSOLE_LIGATURES" value="true"/>
+    <option name="CONSOLE_FONT_NAME" value="Fira Code"/>
+    <option name="CONSOLE_FONT_SIZE" value="12"/>
+    <option name="CONSOLE_LINE_SPACING" value="1.0"/>
     <colors>
         <option name="ADDED_LINES_COLOR" value="addb67"/>
         <option name="ANNOTATIONS_COLOR" value="fffbf7"/>
         <option name="CARET_COLOR" value="7e57c2"/>
-        <option name="CARET_ROW_COLOR" value="232235"/>
+        <option name="CARET_ROW_COLOR" value="353334"/>
         <option name="CONSOLE_BACKGROUND_KEY" value=""/>
         <option name="DELETED_LINES_COLOR" value="ff5370"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30"/>
@@ -52,7 +45,7 @@
         <option name="FILESTATUS_SWITCHED" value="8978f"/>
         <option name="FILESTATUS_UNKNOWN" value="f77669"/>
         <option name="FILESTATUS_modifiedOutside" value="7fdbca"/>
-        <option name="GUTTER_BACKGROUND" value="292d3e"/>
+        <option name="GUTTER_BACKGROUND" value="212121"/>
         <option name="INDENT_GUIDE" value="34324a"/>
         <option name="INFORMATION_HINT" value="292d3e"/>
         <option name="LINE_NUMBERS_COLOR" value="5f7e97"/>
@@ -2195,7 +2188,6 @@
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="3b514d"/>
                 <option name="FONT_TYPE" value="1"/>
                 <option name="EFFECT_COLOR" value="5f7e97"/>
                 <option name="EFFECT_TYPE" value="1"/>
@@ -2659,12 +2651,12 @@
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="78ccf0"/>
+                <option name="FOREGROUND" value="82aaff"/>
             </value>
         </option>
         <option name="PY.CLASS_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="addb67"/>
+                <option name="FOREGROUND" value="ffcb6b"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -2695,11 +2687,6 @@
                 <option name="FOREGROUND" value="89ddf7"/>
             </value>
         </option>
-        <option name="PY.FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="addb67"/>
-            </value>
-        </option>
         <option name="PY.FUNC_DEFINITION">
             <value>
                 <option name="FOREGROUND" value="82aaff"/>
@@ -2719,7 +2706,7 @@
         </option>
         <option name="PY.KEYWORD_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="7fdbca"/>
+                <option name="FOREGROUND" value="f78c6c"/>
             </value>
         </option>
         <option name="PY.LINE_COMMENT">
@@ -2740,7 +2727,7 @@
         </option>
         <option name="PY.PARAMETER">
             <value>
-                <option name="FOREGROUND" value="7fdbca"/>
+                <option name="FOREGROUND" value="f78c6c"/>
             </value>
         </option>
         <option name="PY.PARENTHS">
@@ -2761,7 +2748,7 @@
         </option>
         <option name="PY.SELF_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="78ccf0"/>
+                <option name="FOREGROUND" value="c792ea"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -2772,12 +2759,12 @@
         </option>
         <option name="PY.STRING.B">
             <value>
-                <option name="FOREGROUND" value="ecc48d"/>
+                <option name="FOREGROUND" value="c3e88d"/>
             </value>
         </option>
         <option name="PY.STRING.U">
             <value>
-                <option name="FOREGROUND" value="ecc48d"/>
+                <option name="FOREGROUND" value="c3e88d"/>
             </value>
         </option>
         <option name="Parentheses">
@@ -3569,7 +3556,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="d6deeb"/>
-                <option name="BACKGROUND" value="292d3e"/>
+                <option name="BACKGROUND" value="212121"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
@@ -3753,17 +3740,17 @@
         </option>
         <option name="JS.THIS_SUPER">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="7fdbca"/>
             </value>
         </option>
         <option name="JS.MODULE_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="7fdbca"/>
             </value>
         </option>
         <option name="JS.DEBUGGER_STMT">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="7fdbca"/>
             </value>
         </option>
         <option name="JS.NULL_UNDEFINED">
@@ -3779,69 +3766,6 @@
         <option name="JAVA_KOTLIN_NULL_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="ff5874"/>
-            </value>
-        </option>
-        <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
-            <value>
-                <option name="FOREGROUND" value="FFD700"/>
-            </value>
-        </option>
-        <option name="ROUND_BRACKETS_RAINBOW_COLOR1">
-            <value>
-                <option name="FOREGROUND" value="DA70D6"/>
-            </value>
-        </option>
-        <option name="ROUND_BRACKETS_RAINBOW_COLOR2">
-            <value>
-                <option name="FOREGROUND" value="87CEFA"/>
-            </value>
-        </option>
-
-        <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
-            <value>
-                <option name="FOREGROUND" value="FFD700"/>
-            </value>
-        </option>
-        <option name="SQUARE_BRACKETS_RAINBOW_COLOR1">
-            <value>
-                <option name="FOREGROUND" value="DA70D6"/>
-            </value>
-        </option>
-        <option name="SQUARE_BRACKETS_RAINBOW_COLOR2">
-            <value>
-                <option name="FOREGROUND" value="87CEFA"/>
-            </value>
-        </option>
-
-        <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR0">
-            <value>
-                <option name="FOREGROUND" value="FFD700"/>
-            </value>
-        </option>
-        <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR1">
-            <value>
-                <option name="FOREGROUND" value="DA70D6"/>
-            </value>
-        </option>
-        <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR2">
-            <value>
-                <option name="FOREGROUND" value="87CEFA"/>
-            </value>
-        </option>
-
-        <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
-            <value>
-                <option name="FOREGROUND" value="FFD700"/>
-            </value>
-        </option>
-        <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
-            <value>
-                <option name="FOREGROUND" value="DA70D6"/>
-            </value>
-        </option>
-        <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
-            <value>
-                <option name="FOREGROUND" value="87CEFA"/>
             </value>
         </option>
     </attributes>

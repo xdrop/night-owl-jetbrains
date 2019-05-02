@@ -1,0 +1,27 @@
+<mtTheme>
+    <name>Night Owl Carbon</name>
+    <themeId>nightowl-carbon</themeId>
+    <dark>true</dark>
+    <editorColorsScheme>Night Owl Carbon</editorColorsScheme>
+    <accentColor>82AAFF</accentColor>
+    <excludedColor>323232</excludedColor>
+    <colors>
+        <color id="treeSelection" value="323232C0"/>
+        <color id="highlight" value="3F3F3F"/>
+        <color id="secondBorder" value="292929"/>
+        <color id="contrast" value="1A1A1A"/>
+        <color id="button" value="2A2A2A"/>
+        <color id="selectionForeground" value="FFFFFF"/>
+        <color id="selectionBackground" value="353535"/>
+        <color id="secondaryBackground" value="292929"/>
+        <color id="disabled" value="474747"/>
+        <color id="tableSelected" value="323232"/>
+        <color id="secondBorder" value="292929"/>
+        <color id="text" value="727272"/>
+        <color id="notifications" value="1A1A1A"/>
+        <color id="foreground" value="B0BEC5"/>
+        <color id="background" value="212121"/>
+        <color id="excluded" value="82AAFF"/>
+        <color id="accent" value="323232"/>
+    </colors>
+</mtTheme>
