@@ -28,6 +28,7 @@
         <bundledTheme name="Night Owl" path="/themes/nightowl"/>
         <bundledTheme name="Night Owl Carbon" path="/themes/nightowl-carbon"/>
         <bundledTheme name="Night Owl Palenight" path="/themes/nightowl-palenight"/>
+        <bundledTheme name="Light Owl" path="/themes/nightowl-light"/>
     </extensions>
     <extensions defaultExtensionNs="com.intellij">
         <bundledColorScheme path="colors/NightOwl" id="Night Owl"/>
@@ -36,6 +37,8 @@
         <bundledColorScheme path="colors/NightOwlCarbonNoItalic" id="Night Owl Carbon (No Italic)"/>
         <bundledColorScheme path="colors/NightOwlPalenight" id="Night Owl Palenight"/>
         <bundledColorScheme path="colors/NightOwlPalenightNoItalic" id="Night Owl Palenight (No Italic)"/>
+        <bundledColorScheme path="colors/NightOwlLight" id="Night Owl Light"/>
+        <bundledColorScheme path="colors/NightOwlLightNoItalic" id="Night Owl Light (No Italic)"/>
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">

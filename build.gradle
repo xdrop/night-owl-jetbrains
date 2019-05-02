@@ -37,7 +37,7 @@ compileKotlin {
 def pluginsIncluded = ['JavaScriptLanguage', "org.jetbrains.kotlin:$kotlin_version-release-IJ$ideaVersion-1"]
 intellij {
     pluginName 'nightowl-theme'
-    version "IU-191.4738.6"
+    version "IU-2018.3.1"
     updateSinceUntilBuild true
     if (isDevMode) {
         pluginsIncluded.addAll(['izhangzhihao.rainbow.brackets:5.10',
