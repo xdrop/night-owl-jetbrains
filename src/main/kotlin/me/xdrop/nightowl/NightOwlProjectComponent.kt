@@ -59,7 +59,7 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-            <li>New <b>Light Owl</b> light version of the theme!</li>
+            <li>New <b>Light Owl</b> (beta) light version of the theme!</li>
             <li>Fix issue with incorrect directory highlighting under certain conditions</li>
         </ul>
         <br/>
