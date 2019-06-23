@@ -79,27 +79,27 @@
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
             <value>
-                <option name="FOREGROUND" value="994cc3"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
             <value>
-                <option name="FOREGROUND" value="da70d6"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
             <value>
-                <option name="FOREGROUND" value="403f53"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR3">
             <value>
-                <option name="FOREGROUND" value="3f51b5"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR4">
             <value>
-                <option name="FOREGROUND" value="897b"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -606,7 +606,7 @@
         </option>
         <option name="DEFAULT_LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="4876d6"/>
+                <option name="FOREGROUND" value="0C969B"/>
             </value>
         </option>
         <option name="DEFAULT_METADATA">
@@ -1186,7 +1186,7 @@
         </option>
         <option name="JAVA.THIS_SUPER">
             <value>
-                <option name="FOREGROUND" value="c969b"/>
+                <option name="FOREGROUND" value="0C969B"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -1203,7 +1203,7 @@
         </option>
         <option name="JAVA_KOTLIN_THIS_SUPER_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="994cc3"/>
+                <option name="FOREGROUND" value="0C969B"/>
             </value>
         </option>
         <option name="JAVA_VALID_STRING_ESCAPE">
@@ -1216,7 +1216,7 @@
         </option>
         <option name="JS.DEBUGGER_STMT">
             <value>
-                <option name="FOREGROUND" value="994cc3"/>
+                <option name="FOREGROUND" value="0C969B"/>
             </value>
         </option>
         <option name="JS.DECORATOR">
@@ -1236,7 +1236,7 @@
         </option>
         <option name="JS.LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="c969b"/>
+                <option name="FOREGROUND" value="0C969B"/>
             </value>
         </option>
         <option name="JS.MODULE_KEYWORD">
@@ -1256,7 +1256,7 @@
         </option>
         <option name="JS.THIS_SUPER">
             <value>
-                <option name="FOREGROUND" value="c969b"/>
+                <option name="FOREGROUND" value="0C969B"/>
             </value>
         </option>
         <option name="JSON.STRING">

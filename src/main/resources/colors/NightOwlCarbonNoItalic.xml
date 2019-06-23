@@ -3740,17 +3740,17 @@
 
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
             <value>
-                <option name="FOREGROUND" value="FFD700"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
             <value>
-                <option name="FOREGROUND" value="DA70D6"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
             <value>
-                <option name="FOREGROUND" value="87CEFA"/>
+                <option name="FOREGROUND" value=""/>
             </value>
         </option>
     </attributes>
