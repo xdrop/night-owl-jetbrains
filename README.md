@@ -60,6 +60,7 @@ Adjust as needed from Material UI settings in Preferences, or adjust colors from
 
 - Night Owl
 - Night Owl Carbon
+- Light Owl
 
 ### Colour Scheme Only
 
