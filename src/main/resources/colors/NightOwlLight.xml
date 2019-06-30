@@ -203,7 +203,7 @@
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="4b1717"/>
+                <option name="BACKGROUND" value="FFD3D8"/>
             </value>
         </option>
         <option name="BROWSEWORDATCARET">
@@ -744,7 +744,7 @@
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="597f5f"/>
+                <option name="BACKGROUND" value="D1F1FF"/>
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
