@@ -59,8 +59,8 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-            <li>Fix bug with no italic version present</li>
-            <li>New <b>Light Owl</b> (beta) light version of the theme!</li>
+        <li>Fix various color issues with Light Owl theme</li>
+        </ul>
         </ul>
         <br/>
         You can enable Night Owl under <b>Tools > Material Theme > External Themes</b>
