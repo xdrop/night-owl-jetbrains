@@ -3138,7 +3138,7 @@
         </option>
         <option name="SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="5f7e97"/>
+                <option name="BACKGROUND" value="E6EAFF"/>
             </value>
         </option>
         <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
@@ -3491,7 +3491,7 @@
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="5f7e97"/>
+                <option name="BACKGROUND" value="E6EAFF"/>
                 <option name="EFFECT_COLOR" value="5f7e97"/>
             </value>
         </option>
