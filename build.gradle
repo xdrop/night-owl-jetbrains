@@ -49,7 +49,7 @@ intellij {
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
     sinceBuild '183.2940.0'
-    untilBuild '191.*'
+    untilBuild '192.*'
 }
 
 task colorsJar(type: Zip) {
