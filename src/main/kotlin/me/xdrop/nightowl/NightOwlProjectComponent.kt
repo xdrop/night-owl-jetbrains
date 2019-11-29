@@ -59,7 +59,7 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-        <li>Fix various color issues with Light Owl theme</li>
+        <li>Update for 2019.3 IDEs</li>
         </ul>
         </ul>
         <br/>

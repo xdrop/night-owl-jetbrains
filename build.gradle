@@ -11,7 +11,7 @@ dependencies {
 }
 
 group 'me.xdrop'
-version '1.5.2'
+version '1.5.4'
 
 def isDevMode = System.getProperty("dev")?.toBoolean() ?: false
 
@@ -49,7 +49,7 @@ intellij {
 patchPluginXml {
     changeNotes file("$projectDir/docs/CHANGELOG.html").text
     sinceBuild '183.2940.0'
-    untilBuild '192.*'
+    untilBuild '193.*'
 }
 
 task colorsJar(type: Zip) {
