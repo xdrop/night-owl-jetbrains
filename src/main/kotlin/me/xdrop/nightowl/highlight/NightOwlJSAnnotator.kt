@@ -4,6 +4,7 @@ import com.intellij.lang.annotation.AnnotationHolder
 import com.intellij.lang.annotation.Annotator
 import com.intellij.lang.annotation.HighlightSeverity
 import com.intellij.lang.javascript.highlighting.JSHighlighter
+import com.intellij.openapi.editor.DefaultLanguageHighlighterColors
 import com.intellij.openapi.editor.colors.TextAttributesKey
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiElement
@@ -35,6 +36,6 @@ class NightOwlJSAnnotator : Annotator {
         val JS_THIS_SUPER = TextAttributesKey.createTextAttributesKey("JS.THIS_SUPER", JSHighlighter.JS_KEYWORD)
         val JS_MODULE_KEYWORD = TextAttributesKey.createTextAttributesKey("JS.MODULE_KEYWORD", JSHighlighter.JS_KEYWORD)
         val JS_DEBUGGER = TextAttributesKey.createTextAttributesKey("JS.DEBUGGER_STMT", JSHighlighter.JS_KEYWORD)
-        val JS_NULL_KEYWORD = TextAttributesKey.createTextAttributesKey("JS.NULL_UNDEFINED", JSHighlighter.JS_KEYWORD)
+        val JS_NULL_KEYWORD = TextAttributesKey.createTextAttributesKey("JS.NULL_UNDEFINED", TextAttributesKey.find("JS.NUMBER"))
     }
 }

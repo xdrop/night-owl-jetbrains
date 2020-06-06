@@ -1,10 +1,7 @@
 <mtTheme>
     <name>Light Owl</name>
     <themeId>nightowl-light</themeId>
-    <dark>false</dark>
     <editorColorsScheme>Night Owl Light</editorColorsScheme>
-    <accentColor>403f53</accentColor>
-    <excludedColor>eae8e8</excludedColor>
     <colors>
         <color id="treeSelection" value="E0E7EA"/>
         <color id="highlight" value="E0E7EA"/>

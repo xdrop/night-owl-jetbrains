@@ -1,10 +1,7 @@
 <mtTheme>
     <name>Night Owl Carbon</name>
     <themeId>nightowl-carbon</themeId>
-    <dark>true</dark>
     <editorColorsScheme>Night Owl Carbon</editorColorsScheme>
-    <accentColor>82AAFF</accentColor>
-    <excludedColor>323232</excludedColor>
     <colors>
         <color id="treeSelection" value="323232C0"/>
         <color id="highlight" value="3F3F3F"/>

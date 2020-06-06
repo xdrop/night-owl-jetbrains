@@ -1,10 +1,7 @@
 <mtTheme>
     <name>Night Owl Palenight</name>
     <themeId>nightowl-palenight</themeId>
-    <dark>true</dark>
     <editorColorsScheme>Night Owl Palenight</editorColorsScheme>
-    <accentColor>ab47bc</accentColor>
-    <excludedColor>2f2e43</excludedColor>
     <colors>
         <color id="treeSelection" value="4A4E6B"/>
         <color id="highlight" value="444267"/>
