@@ -59,7 +59,7 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-            <li>Update for 2020.2 IDEs</li>
+            <li>Update for 2020.3 IDEs</li>
         </ul>
         </ul>
         <br/>
