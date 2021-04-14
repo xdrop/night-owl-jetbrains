@@ -59,8 +59,7 @@ class NightOwlProjectComponent(project: Project) : AbstractProjectComponent(proj
         <br/>
         <b>In this release</b>: <ul>
         <ul>
-            <li>Update for 2020.3 IDEs</li>
-        </ul>
+            <li>Update for 2021.1 IDEs</li>
         </ul>
         <br/>
         You can enable Night Owl under <b>Tools > Material Theme > External Themes</b>
